@@ -1,1 +1,59 @@
-{"data":"aW1wb3J0IHsgcHV0IH0gZnJvbSAnQHZlcmNlbC9ibG9iJzsKaW1wb3J0IHsgcmVxdWlyZUF1dGggfSBmcm9tICcuL19taWRkbGV3YXJlLmpzJzsKCmV4cG9ydCBjb25zdCBjb25maWcgPSB7IGFwaTogeyBib2R5UGFyc2VyOiBmYWxzZSB9IH07CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKHJlcSwgcmVzKSB7CiAgaWYgKHJlcS5tZXRob2QgIT09ICdQT1NUJykgcmV0dXJuIHJlcy5zdGF0dXMoNDA1KS5qc29uKHsgZXJyb3I6ICdNZXRob2Qgbm90IGFsbG93ZWQnIH0pOwogIGlmICghcmVxdWlyZUF1dGgocmVxLCByZXMpKSByZXR1cm47CgogIGNvbnN0IGNodW5rcyA9IFtdOwogIGZvciBhd2FpdCAoY29uc3QgY2h1bmsgb2YgcmVxKSBjaHVua3MucHVzaChjaHVuayk7CiAgY29uc3QgYnVmZmVyID0gQnVmZmVyLmNvbmNhdChjaHVua3MpOwoKICBjb25zdCBjb250ZW50VHlwZSA9IHJlcS5oZWFkZXJzWydjb250ZW50LXR5cGUnXSB8fCAnJzsKICBjb25zdCBib3VuZGFyeSA9IGNvbnRlbnRUeXBlLnNwbGl0KCdib3VuZGFyeT0nKVsxXTsKICBpZiAoIWJvdW5kYXJ5KSByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogJ05vIGJvdW5kYXJ5IGluIG11bHRpcGFydCcgfSk7CgogIGNvbnN0IHBhcnRzID0gcGFyc2VNdWx0aXBhcnQoYnVmZmVyLCBib3VuZGFyeSk7CiAgY29uc3QgZmlsZVBhcnQgPSBwYXJ0cy5maW5kKHAgPT4gcC5uYW1lID09PSAnZmlsZScpOwogIGlmICghZmlsZVBhcnQpIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IGVycm9yOiAnTm8gZmlsZSBmaWVsZCcgfSk7CgogIGNvbnN0IGZpbGVuYW1lID0gYHBvcnRmb2xpby8ke0RhdGUubm93KCl9LSR7ZmlsZVBhcnQuZmlsZW5hbWV9YDsKICBjb25zdCBibG9iID0gYXdhaXQgcHV0KGZpbGVuYW1lLCBmaWxlUGFydC5kYXRhLCB7CiAgICBhY2Nlc3M6ICdwdWJsaWMnLAogICAgY29udGVudFR5cGU6IGZpbGVQYXJ0LmNvbnRlbnRUeXBlLAogIH0pOwoKICByZXR1cm4gcmVzLnN0YXR1cygyMDApLmpzb24oeyB1cmw6IGJsb2IudXJsIH0pOwp9CgpmdW5jdGlvbiBwYXJzZU11bHRpcGFydChidWZmZXIsIGJvdW5kYXJ5KSB7CiAgY29uc3QgcGFydHMgPSBbXTsKICBjb25zdCBzZXAgPSBCdWZmZXIuZnJvbShgLS0ke2JvdW5kYXJ5fWApOwogIGxldCBzdGFydCA9IGJ1ZmZlci5pbmRleE9mKHNlcCkgKyBzZXAubGVuZ3RoICsgMjsKCiAgd2hpbGUgKHN0YXJ0IDwgYnVmZmVyLmxlbmd0aCkgewogICAgY29uc3QgZW5kID0gYnVmZmVyLmluZGV4T2Yoc2VwLCBzdGFydCk7CiAgICBpZiAoZW5kID09PSAtMSkgYnJlYWs7CiAgICBjb25zdCBwYXJ0ID0gYnVmZmVyLnNsaWNlKHN0YXJ0LCBlbmQgLSAyKTsKICAgIGNvbnN0IGhlYWRlckVuZCA9IHBhcnQuaW5kZXhPZignXHJcblxyXG4nKTsKICAgIGlmIChoZWFkZXJFbmQgPT09IC0xKSB7IHN0YXJ0ID0gZW5kICsgc2VwLmxlbmd0aCArIDI7IGNvbnRpbnVlOyB9CgogICAgY29uc3QgaGVhZGVyU3RyID0gcGFydC5zbGljZSgwLCBoZWFkZXJFbmQpLnRvU3RyaW5nKCk7CiAgICBjb25zdCBkYXRhID0gcGFydC5zbGljZShoZWFkZXJFbmQgKyA0KTsKCiAgICBjb25zdCBuYW1lTWF0Y2ggPSBoZWFkZXJTdHIubWF0Y2goL25hbWU9IihbXiJdKykiLyk7CiAgICBjb25zdCBmaWxlbmFtZU1hdGNoID0gaGVhZGVyU3RyLm1hdGNoKC9maWxlbmFtZT0iKFteIl0rKSIvKTsKICAgIGNvbnN0IGN0TWF0Y2ggPSBoZWFkZXJTdHIubWF0Y2goL0NvbnRlbnQtVHlwZTpccyooW15cclxuXSspL2kpOwoKICAgIHBhcnRzLnB1c2goewogICAgICBuYW1lOiBuYW1lTWF0Y2g/LlsxXSwKICAgICAgZmlsZW5hbWU6IGZpbGVuYW1lTWF0Y2g/LlsxXSwKICAgICAgY29udGVudFR5cGU6IGN0TWF0Y2g/LlsxXT8udHJpbSgpIHx8ICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nLAogICAgICBkYXRhLAogICAgfSk7CiAgICBzdGFydCA9IGVuZCArIHNlcC5sZW5ndGggKyAyOwogIH0KICByZXR1cm4gcGFydHM7Cn0K"}
+import { put } from '@vercel/blob';
+import { requireAuth } from './_middleware.js';
+
+export const config = { api: { bodyParser: false } };
+
+export default async function handler(req, res) {
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+  if (!requireAuth(req, res)) return;
+
+  const chunks = [];
+  for await (const chunk of req) chunks.push(chunk);
+  const buffer = Buffer.concat(chunks);
+
+  const contentType = req.headers['content-type'] || '';
+  const boundary = contentType.split('boundary=')[1];
+  if (!boundary) return res.status(400).json({ error: 'No boundary in multipart' });
+
+  const parts = parseMultipart(buffer, boundary);
+  const filePart = parts.find(p => p.name === 'file');
+  if (!filePart) return res.status(400).json({ error: 'No file field' });
+
+  const filename = `portfolio/${Date.now()}-${filePart.filename}`;
+  const blob = await put(filename, filePart.data, {
+    access: 'public',
+    contentType: filePart.contentType,
+  });
+
+  return res.status(200).json({ url: blob.url });
+}
+
+function parseMultipart(buffer, boundary) {
+  const parts = [];
+  const sep = Buffer.from(`--${boundary}`);
+  let start = buffer.indexOf(sep) + sep.length + 2;
+
+  while (start < buffer.length) {
+    const end = buffer.indexOf(sep, start);
+    if (end === -1) break;
+    const part = buffer.slice(start, end - 2);
+    const headerEnd = part.indexOf('\r\n\r\n');
+    if (headerEnd === -1) { start = end + sep.length + 2; continue; }
+
+    const headerStr = part.slice(0, headerEnd).toString();
+    const data = part.slice(headerEnd + 4);
+
+    const nameMatch = headerStr.match(/name="([^"]+)"/);
+    const filenameMatch = headerStr.match(/filename="([^"]+)"/);
+    const ctMatch = headerStr.match(/Content-Type:\s*([^\r\n]+)/i);
+
+    parts.push({
+      name: nameMatch?.[1],
+      filename: filenameMatch?.[1],
+      contentType: ctMatch?.[1]?.trim() || 'application/octet-stream',
+      data,
+    });
+    start = end + sep.length + 2;
+  }
+  return parts;
+}

@@ -1,1 +1,9 @@
-{"data":"ewogICJyZXdyaXRlcyI6IFsKICAgIHsgInNvdXJjZSI6ICIvIiwgImRlc3RpbmF0aW9uIjogIi9mZXVyb25hLmNvbS9pbmRleC5odG1sIiB9LAogICAgeyAic291cmNlIjogIi93b3JrIiwgImRlc3RpbmF0aW9uIjogIi9mZXVyb25hLmNvbS93b3JrLmh0bWwiIH0sCiAgICB7ICJzb3VyY2UiOiAiL2NvbnRhY3QiLCAiZGVzdGluYXRpb24iOiAiL2ZldXJvbmEuY29tL2NvbnRhY3QuaHRtbCIgfSwKICAgIHsgInNvdXJjZSI6ICIvYWRtaW4iLCAiZGVzdGluYXRpb24iOiAiL2FkbWluL2luZGV4Lmh0bWwiIH0sCiAgICB7ICJzb3VyY2UiOiAiL3Byb2plY3QvOnNsdWciLCAiZGVzdGluYXRpb24iOiAiL2FwaS9wcm9qZWN0P3NsdWc9OnNsdWciIH0KICBdCn0K"}
+{
+  "rewrites": [
+    { "source": "/", "destination": "/feurona.com/index.html" },
+    { "source": "/work", "destination": "/feurona.com/work.html" },
+    { "source": "/contact", "destination": "/feurona.com/contact.html" },
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/project/:slug", "destination": "/api/project?slug=:slug" }
+  ]
+}

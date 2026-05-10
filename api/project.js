@@ -1,1 +1,94 @@
-{"data":"aW1wb3J0IHsgbGlzdCB9IGZyb20gJ0B2ZXJjZWwvYmxvYic7Cgpjb25zdCBNQU5JRkVTVF9LRVkgPSAncG9ydGZvbGlvL2VudHJpZXMuanNvbic7Cgphc3luYyBmdW5jdGlvbiBnZXRFbnRyaWVzKCkgewogIHRyeSB7CiAgICBjb25zdCB7IGJsb2JzIH0gPSBhd2FpdCBsaXN0KHsgcHJlZml4OiBNQU5JRkVTVF9LRVkgfSk7CiAgICBpZiAoIWJsb2JzLmxlbmd0aCkgcmV0dXJuIFtdOwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYmxvYnNbMF0udXJsKTsKICAgIHJldHVybiBhd2FpdCByZXMuanNvbigpOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIFtdOwogIH0KfQoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gaGFuZGxlcihyZXEsIHJlcykgewogIGNvbnN0IHsgc2x1ZyB9ID0gcmVxLnF1ZXJ5OwogIGNvbnN0IGVudHJpZXMgPSBhd2FpdCBnZXRFbnRyaWVzKCk7CiAgY29uc3QgZW50cnkgPSBlbnRyaWVzLmZpbmQoZSA9PiBlLnNsdWcgPT09IHNsdWcpOwogIGlmICghZW50cnkpIHJldHVybiByZXMuc3RhdHVzKDQwNCkuc2VuZCgnTm90IGZvdW5kJyk7CgogIGNvbnN0IGltYWdlcyA9IFtlbnRyeS5jb3ZlckltYWdlLCAuLi5lbnRyeS5pbWFnZXNdOwogIGNvbnN0IGltYWdlTW9kdWxlcyA9IGltYWdlcy5tYXAodXJsID0+IGAKICAgIDxkaXYgY2xhc3M9InByb2plY3QtbW9kdWxlIG1vZHVsZSBpbWFnZSBwcm9qZWN0LW1vZHVsZS1pbWFnZSBqcy1qcy1wcm9qZWN0LW1vZHVsZSI+CiAgICAgIDxpbWcgY2xhc3M9ImUyZS1zaXRlLXByb2plY3QtbW9kdWxlLWltYWdlIiBzcmM9IiR7dXJsfSIgc3R5bGU9Im1heC13aWR0aDoxMDAlO2Rpc3BsYXk6YmxvY2s7bWFyZ2luOjAgYXV0byI+CiAgICA8L2Rpdj5gKS5qb2luKCdcbicpOwoKICBjb25zdCBodG1sID0gYDwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJlbi1VUyI+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9IlVURi04IiAvPgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MSIgLz4KICA8bWV0YSBuYW1lPSJkZXNjcmlwdGlvbiIgY29udGVudD0iJHtlbnRyeS5kZXNjcmlwdGlvbn0iIC8+CiAgPG1ldGEgcHJvcGVydHk9Im9nOnRpdGxlIiBjb250ZW50PSIke2VudHJ5LnRpdGxlfSIgLz4KICA8bWV0YSBwcm9wZXJ0eT0ib2c6aW1hZ2UiIGNvbnRlbnQ9IiR7ZW50cnkuY292ZXJJbWFnZX0iIC8+CiAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIvZmV1cm9uYS5jb20vZGlzdC9jc3MvbWFpbi5jc3MiIHR5cGU9InRleHQvY3NzIiAvPgogIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2Nkbi5teXBvcnRmb2xpby5jb20vOGY5ZTk3ZTYtYjRlOS00ZjcyLWE4YmEtZGM0YTdlODMzNDA2LzUwZDlmYjBkZWQ4N2ZhYzRmZjkxYzg4MWNjNWE3NWI5MTc2NDU5ODg1NWMxYWEuY3NzP2g9Mjk2ODdlYmU1MzRmNGQzZWNhOWNiMWFmZDRmZGY3ZGIiIHR5cGU9InRleHQvY3NzIiAvPgogIDx0aXRsZT4ke2VudHJ5LnRpdGxlfSDigJQgRmV1cm9uYTwvdGl0bGU+CjwvaGVhZD4KPGJvZHkgY2xhc3M9InRyYW5zaXRpb24tZW5hYmxlZCI+CiAgPGRpdiBjbGFzcz0ianMtcmVzcG9uc2l2ZS1uYXYiPgogICAgPGRpdiBjbGFzcz0icmVzcG9uc2l2ZS1uYXYgaGFzLXNvY2lhbCI+CiAgICAgIDxkaXYgY2xhc3M9ImNsb3NlLXJlc3BvbnNpdmUtY2xpY2stYXJlYSBqcy1jbG9zZS1yZXNwb25zaXZlLW5hdiI+PGRpdiBjbGFzcz0iY2xvc2UtcmVzcG9uc2l2ZS1idXR0b24iPjwvZGl2PjwvZGl2PgogICAgICA8bmF2IGNsYXNzPSJuYXYtY29udGFpbmVyIj4KICAgICAgICA8ZGl2IGNsYXNzPSJnYWxsZXJ5LXRpdGxlIj48YSBocmVmPSIvZmV1cm9uYS5jb20vd29yay5odG1sIj5Xb3JrPC9hPjwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InBhZ2UtdGl0bGUiPjxhIGhyZWY9Ii9mZXVyb25hLmNvbS9jb250YWN0Lmh0bWwiPkNvbnRhY3Q8L2E+PC9kaXY+CiAgICAgIDwvbmF2PgogICAgPC9kaXY+CiAgPC9kaXY+CiAgPGhlYWRlciBjbGFzcz0ic2l0ZS1oZWFkZXIganMtc2l0ZS1oZWFkZXIganMtZml4ZWQtbmF2Ij4KICAgIDxuYXYgY2xhc3M9Im5hdi1jb250YWluZXIiPgogICAgICA8ZGl2IGNsYXNzPSJnYWxsZXJ5LXRpdGxlIj48YSBocmVmPSIvZmV1cm9uYS5jb20vd29yay5odG1sIj5Xb3JrPC9hPjwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJwYWdlLXRpdGxlIj48YSBocmVmPSIvZmV1cm9uYS5jb20vY29udGFjdC5odG1sIj5Db250YWN0PC9hPjwvZGl2PgogICAgPC9uYXY+CiAgICA8ZGl2IGNsYXNzPSJsb2dvLXdyYXAiPgogICAgICA8ZGl2IGNsYXNzPSJsb2dvIGUyZS1zaXRlLWxvZ28tdGV4dCBsb2dvLWltYWdlIj4KICAgICAgICA8YSBocmVmPSIvZmV1cm9uYS5jb20vd29yay5odG1sIiBjbGFzcz0iaW1hZ2UtbGluayI+CiAgICAgICAgICA8aW1nIHNyYz0iL2Nkbi5teXBvcnRmb2xpby5jb20vOGY5ZTk3ZTYtYjRlOS00ZjcyLWE4YmEtZGM0YTdlODMzNDA2LzdkODhlM2ZmLWM1N2EtNGNjNC1hYTQzLWFmYjUwNTgxMGY2Nl9yd2NfMHgweDcwMHg3MDB4NDA5NjkwMTQucG5nP2g9NTZiMWE0MWIwNjMyNjU4ZjU1ZWEyNjBmYzk5OWJhZDMiIGFsdD0iRmV1cm9uYSI+CiAgICAgICAgPC9hPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iaGFtYnVyZ2VyLWNsaWNrLWFyZWEganMtaGFtYnVyZ2VyIj48ZGl2IGNsYXNzPSJoYW1idXJnZXIiPjxpPjwvaT48aT48L2k+PGk+PC9pPjwvZGl2PjwvZGl2PgogIDwvaGVhZGVyPgogIDxkaXYgY2xhc3M9ImhlYWRlci1wbGFjZWhvbGRlciI+PC9kaXY+CiAgPGRpdiBjbGFzcz0ic2l0ZS13cmFwIGNmaXgganMtc2l0ZS13cmFwIj4KICAgIDxkaXYgY2xhc3M9InNpdGUtY29udGFpbmVyIj4KICAgICAgPGRpdiBjbGFzcz0ic2l0ZS1jb250ZW50IGUyZS1zaXRlLWNvbnRlbnQiPgogICAgICAgIDxtYWluPgogICAgICAgICAgPHNlY3Rpb24gY2xhc3M9InByb2plY3QtcGFnZS1jb250ZW50Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJvamVjdC1wYWdlLWhlYWRlciI+CiAgICAgICAgICAgICAgPGgxIGNsYXNzPSJwcm9qZWN0LXBhZ2UtdGl0bGUiPiR7ZW50cnkudGl0bGV9PC9oMT4KICAgICAgICAgICAgICAke2VudHJ5LmRlc2NyaXB0aW9uID8gYDxwIGNsYXNzPSJwcm9qZWN0LXBhZ2UtZGVzY3JpcHRpb24iPiR7ZW50cnkuZGVzY3JpcHRpb259PC9wPmAgOiAnJ30KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2plY3QtbW9kdWxlcyI+CiAgICAgICAgICAgICAgJHtpbWFnZU1vZHVsZXN9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICAgPHNlY3Rpb24gY2xhc3M9ImJhY2stdG8tdG9wIj4KICAgICAgICAgICAgPGEgaHJlZj0iIyI+PHNwYW4gY2xhc3M9ImFycm93Ij4mdWFycjs8L3NwYW4+PHNwYW4gY2xhc3M9InByZXNlcnZlLXdoaXRlc3BhY2UiPkJhY2sgdG8gVG9wPC9zcGFuPjwvYT4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICAgIDxmb290ZXIgY2xhc3M9InNpdGUtZm9vdGVyIj48L2Zvb3Rlcj4KICAgICAgICA8L21haW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CiAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPnZhciBfX2NvbmZpZ19fID0geyJwYWdlVHJhbnNpdGlvbiI6dHJ1ZSwibGlua1RyYW5zaXRpb24iOnRydWUsImRpc2FibGVEb3dubG9hZCI6dHJ1ZSwibGlnaHRib3giOnsiZW5hYmxlZCI6dHJ1ZSwiY29sb3IiOnsib3BhY2l0eSI6MC45NCwiaGV4IjoiI2ZmZiJ9fX07PC9zY3JpcHQ+CiAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2ZldXJvbmEuY29tL3NpdGUvdHJhbnNsYXRpb25zMzI4OD9jYj05ZjU4YzBjNjcwNmE1MmU5Mjg4YjAzNWM0NTk3ZDg3ZTc4OGU1ZDhlIj48L3NjcmlwdD4KICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvZmV1cm9uYS5jb20vZGlzdC9qcy9tYWluMzI4OC5qcz9jYj05ZjU4YzBjNjcwNmE1MmU5Mjg4YjAzNWM0NTk3ZDg3ZTc4OGU1ZDhlIj48L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+YDsKCiAgcmVzLnNldEhlYWRlcignQ29udGVudC1UeXBlJywgJ3RleHQvaHRtbDsgY2hhcnNldD11dGYtOCcpOwogIHJldHVybiByZXMuc3RhdHVzKDIwMCkuc2VuZChodG1sKTsKfQo="}
+import { list } from '@vercel/blob';
+
+const MANIFEST_KEY = 'portfolio/entries.json';
+
+async function getEntries() {
+  try {
+    const { blobs } = await list({ prefix: MANIFEST_KEY });
+    if (!blobs.length) return [];
+    const res = await fetch(blobs[0].url);
+    return await res.json();
+  } catch {
+    return [];
+  }
+}
+
+export default async function handler(req, res) {
+  const { slug } = req.query;
+  const entries = await getEntries();
+  const entry = entries.find(e => e.slug === slug);
+  if (!entry) return res.status(404).send('Not found');
+
+  const images = [entry.coverImage, ...entry.images];
+  const imageModules = images.map(url => `
+    <div class="project-module module image project-module-image js-js-project-module">
+      <img class="e2e-site-project-module-image" src="${url}" style="max-width:100%;display:block;margin:0 auto">
+    </div>`).join('\n');
+
+  const html = `<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="${entry.description}" />
+  <meta property="og:title" content="${entry.title}" />
+  <meta property="og:image" content="${entry.coverImage}" />
+  <link rel="stylesheet" href="/feurona.com/dist/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="../cdn.myportfolio.com/8f9e97e6-b4e9-4f72-a8ba-dc4a7e833406/50d9fb0ded87fac4ff91c881cc5a75b91764598855c1aa.css" type="text/css" />
+  <title>${entry.title} — Feurona</title>
+</head>
+<body class="transition-enabled">
+  <div class="js-responsive-nav">
+    <div class="responsive-nav has-social">
+      <div class="close-responsive-click-area js-close-responsive-nav"><div class="close-responsive-button"></div></div>
+      <nav class="nav-container">
+        <div class="gallery-title"><a href="/feurona.com/work.html">Work</a></div>
+        <div class="page-title"><a href="/feurona.com/contact.html">Contact</a></div>
+      </nav>
+    </div>
+  </div>
+  <header class="site-header js-site-header js-fixed-nav">
+    <nav class="nav-container">
+      <div class="gallery-title"><a href="/feurona.com/work.html">Work</a></div>
+      <div class="page-title"><a href="/feurona.com/contact.html">Contact</a></div>
+    </nav>
+    <div class="logo-wrap">
+      <div class="logo e2e-site-logo-text logo-image">
+        <a href="/feurona.com/work.html" class="image-link">
+          <img src="../cdn.myportfolio.com/8f9e97e6-b4e9-4f72-a8ba-dc4a7e833406/7d88e3ff-c57a-4cc4-aa43-afb505810f66_rwc_0x0x700x700x40969014.png" alt="Feurona">
+        </a>
+      </div>
+    </div>
+    <div class="hamburger-click-area js-hamburger"><div class="hamburger"><i></i><i></i><i></i></div></div>
+  </header>
+  <div class="header-placeholder"></div>
+  <div class="site-wrap cfix js-site-wrap">
+    <div class="site-container">
+      <div class="site-content e2e-site-content">
+        <main>
+          <section class="project-page-content">
+            <div class="project-page-header">
+              <h1 class="project-page-title">${entry.title}</h1>
+              ${entry.description ? `<p class="project-page-description">${entry.description}</p>` : ''}
+            </div>
+            <div class="project-modules">
+              ${imageModules}
+            </div>
+          </section>
+          <section class="back-to-top">
+            <a href="#"><span class="arrow">&uarr;</span><span class="preserve-whitespace">Back to Top</span></a>
+          </section>
+          <footer class="site-footer"></footer>
+        </main>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">var __config__ = {"pageTransition":true,"linkTransition":true,"disableDownload":true,"lightbox":{"enabled":true,"color":{"opacity":0.94,"hex":"#fff"}}};</script>
+  <script type="text/javascript" src="/feurona.com/site/translations3288"></script>
+  <script type="text/javascript" src="/feurona.com/dist/js/main3288.js"></script>
+</body>
+</html>`;
+
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  return res.status(200).send(html);
+}

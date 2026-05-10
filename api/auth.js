@@ -1,1 +1,19 @@
-{"data":"ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gaGFuZGxlcihyZXEsIHJlcykgewogIGlmIChyZXEubWV0aG9kICE9PSAnUE9TVCcpIHsKICAgIHJldHVybiByZXMuc3RhdHVzKDQwNSkuanNvbih7IGVycm9yOiAnTWV0aG9kIG5vdCBhbGxvd2VkJyB9KTsKICB9CgogIGNvbnN0IHsgcGFzc3dvcmQgfSA9IHJlcS5ib2R5OwogIGNvbnN0IGFkbWluUGFzc3dvcmQgPSBwcm9jZXNzLmVudi5BRE1JTl9QQVNTV09SRDsKCiAgaWYgKCFhZG1pblBhc3N3b3JkKSB7CiAgICByZXR1cm4gcmVzLnN0YXR1cyg1MDApLmpzb24oeyBlcnJvcjogJ0FETUlOX1BBU1NXT1JEIGVudiB2YXIgbm90IHNldCcgfSk7CiAgfQoKICBpZiAocGFzc3dvcmQgPT09IGFkbWluUGFzc3dvcmQpIHsKICAgIHJlcy5zZXRIZWFkZXIoJ1NldC1Db29raWUnLCBgYWRtaW5fdG9rZW49JHtCdWZmZXIuZnJvbShhZG1pblBhc3N3b3JkKS50b1N0cmluZygnYmFzZTY0Jyl9OyBQYXRoPS87IEh0dHBPbmx5OyBTYW1lU2l0ZT1TdHJpY3Q7IE1heC1BZ2U9ODY0MDBgKTsKICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuanNvbih7IG9rOiB0cnVlIH0pOwogIH0KCiAgcmV0dXJuIHJlcy5zdGF0dXMoNDAxKS5qc29uKHsgZXJyb3I6ICdJbnZhbGlkIHBhc3N3b3JkJyB9KTsKfQo="}
+export default function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
+
+  const { password } = req.body;
+  const adminPassword = process.env.ADMIN_PASSWORD;
+
+  if (!adminPassword) {
+    return res.status(500).json({ error: 'ADMIN_PASSWORD env var not set' });
+  }
+
+  if (password === adminPassword) {
+    res.setHeader('Set-Cookie', `admin_token=${Buffer.from(adminPassword).toString('base64')}; Path=/; HttpOnly; SameSite=Strict; Max-Age=86400`);
+    return res.status(200).json({ ok: true });
+  }
+
+  return res.status(401).json({ error: 'Invalid password' });
+}

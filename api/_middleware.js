@@ -1,1 +1,12 @@
-{"data":"ZXhwb3J0IGZ1bmN0aW9uIHJlcXVpcmVBdXRoKHJlcSwgcmVzKSB7CiAgY29uc3QgYWRtaW5QYXNzd29yZCA9IHByb2Nlc3MuZW52LkFETUlOX1BBU1NXT1JEOwogIGNvbnN0IGNvb2tpZXMgPSBPYmplY3QuZnJvbUVudHJpZXMoCiAgICAocmVxLmhlYWRlcnMuY29va2llIHx8ICcnKS5zcGxpdCgnOycpLm1hcChjID0+IGMudHJpbSgpLnNwbGl0KCc9JykubWFwKGRlY29kZVVSSUNvbXBvbmVudCkpCiAgKTsKICBjb25zdCB0b2tlbiA9IGNvb2tpZXNbJ2FkbWluX3Rva2VuJ107CiAgaWYgKCF0b2tlbiB8fCAhYWRtaW5QYXNzd29yZCB8fCB0b2tlbiAhPT0gQnVmZmVyLmZyb20oYWRtaW5QYXNzd29yZCkudG9TdHJpbmcoJ2Jhc2U2NCcpKSB7CiAgICByZXMuc3RhdHVzKDQwMSkuanNvbih7IGVycm9yOiAnVW5hdXRob3JpemVkJyB9KTsKICAgIHJldHVybiBmYWxzZTsKICB9CiAgcmV0dXJuIHRydWU7Cn0K"}
+export function requireAuth(req, res) {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  const cookies = Object.fromEntries(
+    (req.headers.cookie || '').split(';').map(c => c.trim().split('=').map(decodeURIComponent))
+  );
+  const token = cookies['admin_token'];
+  if (!token || !adminPassword || token !== Buffer.from(adminPassword).toString('base64')) {
+    res.status(401).json({ error: 'Unauthorized' });
+    return false;
+  }
+  return true;
+}

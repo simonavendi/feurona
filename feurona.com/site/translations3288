@@ -1,1 +1,1 @@
-{"data":"dmFyIF9fbGFuZ3VhZ2VzX18gPSB7ImxvY2FsaXplZFZhbGlkYXRpb25NZXNzYWdlcyI6eyJyZXF1aXJlZCI6IlRoaXMgZmllbGQgaXMgcmVxdWlyZWQiLCJFbWFpbCI6IlRoaXMgZmllbGQgbXVzdCBiZSBhIHZhbGlkIGVtYWlsIGFkZHJlc3MifX07"}
+var __languages__ = {"localizedValidationMessages":{"required":"This field is required","Email":"This field must be a valid email address"}};

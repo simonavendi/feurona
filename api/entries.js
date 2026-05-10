@@ -1,1 +1,60 @@
-{"data":"aW1wb3J0IHsgcHV0LCBsaXN0LCBkZWwsIGhlYWQgfSBmcm9tICdAdmVyY2VsL2Jsb2InOwppbXBvcnQgeyByZXF1aXJlQXV0aCB9IGZyb20gJy4vX21pZGRsZXdhcmUuanMnOwoKY29uc3QgTUFOSUZFU1RfS0VZID0gJ3BvcnRmb2xpby9lbnRyaWVzLmpzb24nOwoKYXN5bmMgZnVuY3Rpb24gZ2V0RW50cmllcygpIHsKICB0cnkgewogICAgY29uc3QgeyBibG9icyB9ID0gYXdhaXQgbGlzdCh7IHByZWZpeDogTUFOSUZFU1RfS0VZIH0pOwogICAgaWYgKCFibG9icy5sZW5ndGgpIHJldHVybiBbXTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGJsb2JzWzBdLnVybCk7CiAgICByZXR1cm4gYXdhaXQgcmVzLmpzb24oKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBbXTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHNhdmVFbnRyaWVzKGVudHJpZXMpIHsKICBhd2FpdCBwdXQoTUFOSUZFU1RfS0VZLCBKU09OLnN0cmluZ2lmeShlbnRyaWVzKSwgewogICAgYWNjZXNzOiAncHVibGljJywKICAgIGNvbnRlbnRUeXBlOiAnYXBwbGljYXRpb24vanNvbicsCiAgICBhZGRSYW5kb21TdWZmaXg6IGZhbHNlLAogIH0pOwp9CgpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKHJlcSwgcmVzKSB7CiAgaWYgKHJlcS5tZXRob2QgPT09ICdHRVQnKSB7CiAgICBjb25zdCBlbnRyaWVzID0gYXdhaXQgZ2V0RW50cmllcygpOwogICAgcmV0dXJuIHJlcy5zdGF0dXMoMjAwKS5qc29uKGVudHJpZXMpOwogIH0KCiAgaWYgKCFyZXF1aXJlQXV0aChyZXEsIHJlcykpIHJldHVybjsKCiAgaWYgKHJlcS5tZXRob2QgPT09ICdQT1NUJykgewogICAgY29uc3QgeyB0aXRsZSwgc2x1ZywgZGVzY3JpcHRpb24sIGNvdmVySW1hZ2UsIGltYWdlcyB9ID0gcmVxLmJvZHk7CiAgICBpZiAoIXRpdGxlIHx8ICFzbHVnIHx8ICFjb3ZlckltYWdlKSB7CiAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IGVycm9yOiAndGl0bGUsIHNsdWcsIGNvdmVySW1hZ2UgcmVxdWlyZWQnIH0pOwogICAgfQogICAgY29uc3QgZW50cmllcyA9IGF3YWl0IGdldEVudHJpZXMoKTsKICAgIGlmIChlbnRyaWVzLmZpbmQoZSA9PiBlLnNsdWcgPT09IHNsdWcpKSB7CiAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwOSkuanNvbih7IGVycm9yOiAnU2x1ZyBhbHJlYWR5IGV4aXN0cycgfSk7CiAgICB9CiAgICBjb25zdCBlbnRyeSA9IHsgaWQ6IERhdGUubm93KCkudG9TdHJpbmcoKSwgdGl0bGUsIHNsdWcsIGRlc2NyaXB0aW9uOiBkZXNjcmlwdGlvbiB8fCAnJywgY292ZXJJbWFnZSwgaW1hZ2VzOiBpbWFnZXMgfHwgW10sIGNyZWF0ZWRBdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpIH07CiAgICBlbnRyaWVzLnVuc2hpZnQoZW50cnkpOwogICAgYXdhaXQgc2F2ZUVudHJpZXMoZW50cmllcyk7CiAgICByZXR1cm4gcmVzLnN0YXR1cygyMDEpLmpzb24oZW50cnkpOwogIH0KCiAgaWYgKHJlcS5tZXRob2QgPT09ICdERUxFVEUnKSB7CiAgICBjb25zdCB7IGlkIH0gPSByZXEucXVlcnk7CiAgICBjb25zdCBlbnRyaWVzID0gYXdhaXQgZ2V0RW50cmllcygpOwogICAgY29uc3QgZmlsdGVyZWQgPSBlbnRyaWVzLmZpbHRlcihlID0+IGUuaWQgIT09IGlkKTsKICAgIGlmIChmaWx0ZXJlZC5sZW5ndGggPT09IGVudHJpZXMubGVuZ3RoKSB7CiAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwNCkuanNvbih7IGVycm9yOiAnRW50cnkgbm90IGZvdW5kJyB9KTsKICAgIH0KICAgIGF3YWl0IHNhdmVFbnRyaWVzKGZpbHRlcmVkKTsKICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuanNvbih7IG9rOiB0cnVlIH0pOwogIH0KCiAgcmV0dXJuIHJlcy5zdGF0dXMoNDA1KS5qc29uKHsgZXJyb3I6ICdNZXRob2Qgbm90IGFsbG93ZWQnIH0pOwp9Cg=="}
+import { put, list, del, head } from '@vercel/blob';
+import { requireAuth } from './_middleware.js';
+
+const MANIFEST_KEY = 'portfolio/entries.json';
+
+async function getEntries() {
+  try {
+    const { blobs } = await list({ prefix: MANIFEST_KEY });
+    if (!blobs.length) return [];
+    const res = await fetch(blobs[0].url);
+    return await res.json();
+  } catch {
+    return [];
+  }
+}
+
+async function saveEntries(entries) {
+  await put(MANIFEST_KEY, JSON.stringify(entries), {
+    access: 'public',
+    contentType: 'application/json',
+    addRandomSuffix: false,
+  });
+}
+
+export default async function handler(req, res) {
+  if (req.method === 'GET') {
+    const entries = await getEntries();
+    return res.status(200).json(entries);
+  }
+
+  if (!requireAuth(req, res)) return;
+
+  if (req.method === 'POST') {
+    const { title, slug, description, coverImage, images } = req.body;
+    if (!title || !slug || !coverImage) {
+      return res.status(400).json({ error: 'title, slug, coverImage required' });
+    }
+    const entries = await getEntries();
+    if (entries.find(e => e.slug === slug)) {
+      return res.status(409).json({ error: 'Slug already exists' });
+    }
+    const entry = { id: Date.now().toString(), title, slug, description: description || '', coverImage, images: images || [], createdAt: new Date().toISOString() };
+    entries.unshift(entry);
+    await saveEntries(entries);
+    return res.status(201).json(entry);
+  }
+
+  if (req.method === 'DELETE') {
+    const { id } = req.query;
+    const entries = await getEntries();
+    const filtered = entries.filter(e => e.id !== id);
+    if (filtered.length === entries.length) {
+      return res.status(404).json({ error: 'Entry not found' });
+    }
+    await saveEntries(filtered);
+    return res.status(200).json({ ok: true });
+  }
+
+  return res.status(405).json({ error: 'Method not allowed' });
+}

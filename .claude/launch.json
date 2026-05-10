@@ -1,1 +1,19 @@
-{"data":"ewogICJ2ZXJzaW9uIjogIjAuMC4xIiwKICAiY29uZmlndXJhdGlvbnMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogInZlcmNlbC1kZXYiLAogICAgICAicnVudGltZUV4ZWN1dGFibGUiOiAibnB4IiwKICAgICAgInJ1bnRpbWVBcmdzIjogWyJ2ZXJjZWwiLCAiZGV2IiwgIi0tbGlzdGVuIiwgIjQwMDAiXSwKICAgICAgInBvcnQiOiA0MDAwLAogICAgICAiYXV0b1BvcnQiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAic3RhdGljLXNlcnZlIiwKICAgICAgInJ1bnRpbWVFeGVjdXRhYmxlIjogIm5weCIsCiAgICAgICJydW50aW1lQXJncyI6IFsic2VydmUiLCAiLiJdLAogICAgICAicG9ydCI6IDMwMDEsCiAgICAgICJhdXRvUG9ydCI6IHRydWUKICAgIH0KICBdCn0K"}
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vercel-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vercel", "dev", "--listen", "4000"],
+      "port": 4000,
+      "autoPort": false
+    },
+    {
+      "name": "static-serve",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "."],
+      "port": 3001,
+      "autoPort": true
+    }
+  ]
+}
