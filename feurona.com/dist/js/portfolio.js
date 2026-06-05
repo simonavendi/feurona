@@ -164,6 +164,15 @@
       desc: "Personalized children's book platform — fairytale landing experience, name-driven book creation flow, and a warm, family-friendly Bulgarian storefront.",
     },
     {
+      title: "Мамо играе ми се",
+      href: "https://www.mamoigraemise.eu/",
+      external: true,
+      image: "dist/images/projects/mamoigraemise-logo.svg",
+      previewFit: "contain",
+      previewScale: 0.65,
+      desc: "Bulgarian e-commerce for Montessori toys and IKEA ANTILOP high-chair accessories — minimalist storefront, natural materials, and a warm family-run brand.",
+    },
+    {
       title: "UEBN · UE Varna",
       href: "https://uebn.ue-varna.bg/",
       external: true,
@@ -666,7 +675,7 @@
 
   async function loadProjectRegistry() {
     const [projectsRes, detailsRes] = await Promise.all([
-      fetch(assetUrl("dist/js/projects-data.json?v=22")),
+      fetch(assetUrl("dist/js/projects-data.json?v=23")),
       fetch(assetUrl("dist/js/project-details.json?v=55")),
     ]);
     if (!projectsRes.ok) throw new Error("projects-data.json failed");
