@@ -1,7 +1,17 @@
 [
   {
+    "href": "eye-patches-packaging.html",
+    "image": "dist/images/projects/eye-patches-packaging.jpg",
+    "title": "Feurona - Eye patches packaging"
+  },
+  {
+    "href": "amare.html",
+    "image": "dist/images/projects/amare-logo.svg",
+    "title": "Feurona - Amare product and label design, visuals"
+  },
+  {
     "href": "ue-varna.html",
-    "image": "dist/images/projects/ue-varna.jpg",
+    "image": "dist/images/projects/ue-varna/Logo-UE_Blue.png",
     "title": "Feurona - UE Varna"
   },
   {
@@ -13,11 +23,6 @@
     "href": "bulgarian-storm-logo-t-shirt-design.html",
     "image": "dist/images/projects/bulgarian-storm-logo-t-shirt-design.jpg",
     "title": "Feurona - Bulgarian Storm Logo &amp; T-shirt design"
-  },
-  {
-    "href": "comics-nem-takva-darzav.html",
-    "image": "dist/images/projects/comics-nem-takva-darzav.jpg",
-    "title": "Feurona - Comics &quot;Немъ такъва даржавъ&quot;"
   },
   {
     "href": "cookies-packaging.html",
@@ -55,11 +60,6 @@
     "title": "Feurona - EU STUDENT UNION MEETING logo"
   },
   {
-    "href": "eye-patches-packaging.html",
-    "image": "dist/images/projects/eye-patches-packaging.jpg",
-    "title": "Feurona - Eye patches packaging"
-  },
-  {
     "href": "fit-fresh-with-ivka.html",
     "image": "dist/images/projects/fit-fresh-with-ivka.jpg",
     "title": "Feurona - Fit &amp; Fresh with Ivka"
@@ -76,7 +76,7 @@
   },
   {
     "href": "inner-wheel-seal.html",
-    "image": "dist/images/projects/inner-wheel-seal.jpg",
+    "image": "dist/images/projects/inner-wheel-seal/01-cover.png",
     "title": "Feurona - Inner Wheel Seal"
   },
   {
@@ -137,7 +137,8 @@
   {
     "href": "shampoo-bar.html",
     "image": "dist/images/projects/shampoo-bar.png",
-    "title": "Feurona - Shampoo Bar"
+    "title": "Feurona - Shampoo Bar",
+    "previewPosition": "center bottom"
   },
   {
     "href": "siyanavelikova.html",
@@ -166,8 +167,8 @@
   },
   {
     "href": "wine-harbour-illustration.html",
-    "image": "dist/images/projects/wine-harbour-illustration.jpg",
-    "title": "Feurona - Wine Harbour Illustration"
+    "image": "dist/images/projects/wine-harbour-illustration/01-536df5c7-99c8-4ce0-872a-2584d2548726.png",
+    "title": "Feurona - Wine Harbour Logo"
   },
   {
     "href": "zodiac.html",
@@ -213,5 +214,10 @@
     "href": "art-for-picture-decorations.html",
     "image": "dist/images/projects/art-for-picture-decorations.jpg",
     "title": "Feurona - Art for picture decorations"
+  },
+  {
+    "href": "comics-nem-takva-darzav.html",
+    "image": "dist/images/projects/comics-nem-takva-darzav.jpg",
+    "title": "Feurona - Comics &quot;Немъ такъва даржавъ&quot;"
   }
 ]

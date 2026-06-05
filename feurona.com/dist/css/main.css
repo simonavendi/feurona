@@ -364,6 +364,10 @@ div.site-wrap.cfix.js-site-wrap {
   gap: 1.5rem !important;
 }
 
+#project-modules .project-module:not(:first-child) {
+  display: none !important;
+}
+
 .project-module-image {
   background: #f7f7f7 !important;
   border-radius: 32px !important;

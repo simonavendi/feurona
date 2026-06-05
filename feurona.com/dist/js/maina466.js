@@ -7883,6 +7883,6 @@
 (function () {
   if (document.querySelector('script[src*="project-images.js"]')) return;
   var s = document.createElement("script");
-  s.src = "dist/js/project-images.js?v=4";
+  s.src = "dist/js/project-images.js?v=6";
   document.documentElement.appendChild(s);
 })();

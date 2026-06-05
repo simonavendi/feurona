@@ -1,19 +1,7 @@
 (function () {
-  function injectBackToPortfolio() {
-    if (!document.getElementById("project-modules")) return;
-    if (document.getElementById("project-back-link")) return;
-
-    var link = document.createElement("a");
-    link.id = "project-back-link";
-    link.className = "project-back-link";
-    link.href = "index.html#portfolio";
-    link.setAttribute("aria-label", "Back to portfolio");
-    link.innerHTML =
-      '<span class="project-back-link__icon" aria-hidden="true">←</span>' +
-      '<span class="project-back-link__text">Portfolio</span>';
-
-    document.body.appendChild(link);
-  }
+  var DEBOUNCE_MS = 16;
+  var applying = false;
+  var debounceTimer;
 
   function resolveCdnUrl(url) {
     if (!url) return "";
@@ -36,107 +24,84 @@
     img.removeAttribute("style");
   }
 
-  function hideModule(img) {
-    var mod = img.closest(".project-module");
-    if (mod) mod.style.display = "none";
+  function isBrokenSrc(src) {
+    return (
+      !src ||
+      src.indexOf("data:image/") === 0 ||
+      src.indexOf("cdn.myportfolio.com") !== -1
+    );
   }
 
-  function showModule(img) {
-    var mod = img.closest(".project-module");
-    if (mod) mod.style.display = "";
-  }
-
-  function setCover(img, paths, index) {
-    if (index >= paths.length) {
-      hideModule(img);
-      return;
-    }
+  function applyCover(img, paths, index) {
+    if (index >= paths.length) return;
     img.removeAttribute("srcset");
+    img.removeAttribute("data-srcset");
     img.onload = function () {
       if (img.naturalWidth > 1) {
         markLoaded(img);
-        showModule(img);
-      } else {
-        setCover(img, paths, index + 1);
+      } else if (index + 1 < paths.length) {
+        applyCover(img, paths, index + 1);
       }
     };
     img.onerror = function () {
-      setCover(img, paths, index + 1);
+      if (index + 1 < paths.length) applyCover(img, paths, index + 1);
     };
     img.src = paths[index];
   }
 
-  function applyLocalGallery() {
-    var host = document.getElementById("project-modules");
-    if (!host || host.getAttribute("data-local-gallery") !== "true") return false;
-
-    host.querySelectorAll(".local-gallery-image").forEach(function (img) {
-      markLoaded(img);
-      showModule(img);
-      var lightbox = img.closest(".js-lightbox");
-      if (lightbox) {
-        var src = img.getAttribute("src") || "";
-        if (src) lightbox.setAttribute("data-src", src);
-      }
-    });
-    return true;
-  }
-
   function applyProjectImages() {
+    if (applying) return;
+    applying = true;
     try {
-      if (applyLocalGallery()) return;
+      var modules = Array.prototype.slice.call(
+        document.querySelectorAll("#project-modules .project-module")
+      );
+      if (!modules.length) return;
 
-      document.querySelectorAll(".js-lightbox[data-src]").forEach(function (el) {
-        el.setAttribute("data-src", resolveCdnUrl(el.getAttribute("data-src")));
+      modules.forEach(function (mod, index) {
+        mod.style.display = index === 0 ? "" : "none";
       });
 
-      var imgs = Array.prototype.slice.call(
-        document.querySelectorAll("#project-modules img.js-lazy[data-src], #project-modules img[data-src]")
-      );
-      if (!imgs.length) return;
+      var firstImg = modules[0].querySelector("img");
+      if (!firstImg) return;
 
       var locals = localCandidates();
+      if (!locals.length) return;
 
-      imgs.forEach(function (img, index) {
-        if (index > 0) {
-          hideModule(img);
-          return;
-        }
-        if (!locals.length) {
-          hideModule(img);
-          return;
-        }
-        var src = img.getAttribute("src") || "";
-        if (src.indexOf("dist/images/projects/") !== -1 && img.naturalWidth > 1) {
-          markLoaded(img);
-          showModule(img);
-          return;
-        }
-        setCover(img, locals, 0);
-      });
+      var src = firstImg.getAttribute("src") || "";
+      if (src.indexOf("dist/images/projects/") !== -1 && firstImg.naturalWidth > 1) {
+        markLoaded(firstImg);
+        return;
+      }
+
+      if (isBrokenSrc(src) || firstImg.naturalWidth <= 1) {
+        applyCover(firstImg, locals, 0);
+      }
     } catch (e) {
       // no-op
+    } finally {
+      applying = false;
     }
   }
 
-  injectBackToPortfolio();
+  function scheduleApply() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(applyProjectImages, DEBOUNCE_MS);
+  }
+
   applyProjectImages();
-  window.addEventListener("load", function () {
-    injectBackToPortfolio();
-    applyProjectImages();
+  window.addEventListener("load", applyProjectImages);
+  [50, 300, 800, 1500].forEach(function (ms) {
+    setTimeout(applyProjectImages, ms);
   });
-  setTimeout(applyProjectImages, 50);
-  setTimeout(applyProjectImages, 300);
 
   var host = document.getElementById("project-modules");
   if (host && window.MutationObserver) {
-    new MutationObserver(function () {
-      applyProjectImages();
-    }).observe(host, {
+    new MutationObserver(scheduleApply).observe(host, {
       childList: true,
       subtree: true,
       attributes: true,
-      attributeFilter: ["src", "style", "class"],
+      attributeFilter: ["src", "srcset", "style", "class"],
     });
   }
 })();

@@ -1,13 +1,12 @@
 {
   "ue-varna": {
     "desc": "Graphic design for University of Economics — Varna: posters, banners, branded materials, logos, and visual identity for institutional events and initiatives including UEBN, Career Forum, and UEVA.",
+    "previewFit": "contain",
+    "previewScale": 0.55,
     "gallery": [
-      "dist/images/projects/ue-varna/01-main.jpg",
       "dist/images/projects/ue-varna/02-2.png",
       "dist/images/projects/ue-varna/03-482321148_1082948687212734_5833345999045991436_n.jpg",
-      "dist/images/projects/ue-varna/04-484810165_1081815723992697_3041170552305584659_n.jpg",
       "dist/images/projects/ue-varna/05-485731406_1084144203759849_8197053609994480623_n.jpg",
-      "dist/images/projects/ue-varna/06-571278476_1264867532354181_7686389581046960206_n.jpg",
       "dist/images/projects/ue-varna/07-633754381_1349642460543354_6861422483657564441_n.jpg",
       "dist/images/projects/ue-varna/08-637217466_1353413640166236_3084552284885902169_n.jpg",
       "dist/images/projects/ue-varna/09-649564649_1373312888176311_4242721786591509474_n.jpg",
@@ -19,6 +18,377 @@
       "dist/images/projects/ue-varna/15-ueva.png",
       "dist/images/projects/ue-varna/16-форум-кариери.png",
       "dist/images/projects/ue-varna/christmas-cards.jpg"
+    ]
+  },
+  "amare": {
+    "desc": "Brand identity and product design for Amare Spa Therapy — scrubs, lotions, candles, and beauty cosmetics packaging with a clean spa-led visual language.",
+    "previewFit": "contain",
+    "gallery": [
+      "dist/images/projects/amare/02-scrab225.png",
+      "dist/images/projects/amare/03-scrab50-showcase.png",
+      "dist/images/projects/amare/04-shopify-candle-100ml.png",
+      "dist/images/projects/amare/05-shopify-laika30.png",
+      "dist/images/projects/amare/06-shopify-limonena-series.png",
+      "dist/images/projects/amare/07-shopify-limonena30.png",
+      "dist/images/projects/amare/08-shopify-lotion30.png",
+      "dist/images/projects/amare/09-shopify-scrab225-2.jpg",
+      "dist/images/projects/amare/10-shopify-scrab225.png",
+      "dist/images/projects/amare/11-shopify-scrab50.png"
+    ]
+  },
+  "biana-photography": {
+    "modalLogo": "dist/images/projects/biana-photography/01-5d11893c-253e-48fd-ba25-57a4c8736d2b.jpg",
+    "gallery": [
+      "dist/images/projects/biana-photography/01-5d11893c-253e-48fd-ba25-57a4c8736d2b.jpg",
+      "dist/images/projects/biana-photography/02-11f02034-8b9d-4079-81ea-6cf54d3c073fb257.jpg"
+    ]
+  },
+  "bulgarian-storm-logo-t-shirt-design": {
+    "gallery": [
+      "dist/images/projects/bulgarian-storm-logo-t-shirt-design/01-43d80661-ef33-41c2-9c30-85f9cb5f2538.jpg",
+      "dist/images/projects/bulgarian-storm-logo-t-shirt-design/02-17b323e4-c518-4778-87e6-20035ac5d9a01903.jpg",
+      "dist/images/projects/bulgarian-storm-logo-t-shirt-design/03-957417a3-2d69-46ba-bbb0-f95c77d0887f5faf.jpg",
+      "dist/images/projects/bulgarian-storm-logo-t-shirt-design/04-d5b244f2-f88d-404c-94ba-406f880ce44d799a.jpg"
+    ]
+  },
+  "comics-nem-takva-darzav": {
+    "gallery": [
+      "dist/images/projects/comics-nem-takva-darzav/01-b5f46507-42eb-43b5-a314-4479a9fc67f5.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/02-3654c1e8-f6c7-406b-afd7-3b29ca904d0ae039.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/03-0571d1fb-1891-4ad6-9279-79f0dcd9562c7dd8.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/04-8e4c9cfa-b9e2-496e-bb81-e9d1004c6a76927c.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/05-ca03fa42-1776-451b-abe0-a3b052a3749148a8.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/06-6a96122d-02ff-46cc-a095-09c2c3b300a29366.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/07-61e8fc3e-4b6f-41bc-926a-d15477b6483373f6.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/08-ad66cd75-2b48-4a6a-8909-b700ccafafb255e8.jpg",
+      "dist/images/projects/comics-nem-takva-darzav/09-a41c5d2b-cb0a-42be-9411-a22fa1af026b5c88.jpg"
+    ]
+  },
+  "cookies-packaging": {
+    "gallery": [
+      "dist/images/projects/cookies-packaging/01-82b3627d-f578-4851-9826-f21ec5deebfc.jpg"
+    ]
+  },
+  "dimitrov-winery-label": {
+    "gallery": [
+      "dist/images/projects/dimitrov-winery-label/01-ef760c4a-f005-4e9b-a199-1ceb4e52f58c.jpg"
+    ]
+  },
+  "eagle-prey-wines": {
+    "gallery": [
+      "dist/images/projects/eagle-prey-wines/01-ce40b83a-9cb3-424d-997c-cef52118e1f3.jpg",
+      "dist/images/projects/eagle-prey-wines/02-ae2c8eaf-f8e6-46a2-9ce2-6b5b8d02ac48b26d.jpg",
+      "dist/images/projects/eagle-prey-wines/03-9c5d132d-1bf0-495a-aa30-03b4b5e7314aac5d.jpg",
+      "dist/images/projects/eagle-prey-wines/04-50b3a91c-93b5-4a93-89d9-37f9e7361f960be4.jpg"
+    ]
+  },
+  "elaste-magazine": {
+    "gallery": [
+      "dist/images/projects/elaste-magazine/01-67df752a-0b96-419c-8f5f-f54423737ca6.jpg",
+      "dist/images/projects/elaste-magazine/02-25a20402-4ebe-4e42-b059-36a60d4e6d118ffa.jpg"
+    ]
+  },
+  "endorfino": {
+    "gallery": [
+      "dist/images/projects/endorfino/01-b055e769-4b44-456a-b7a7-65ccc5a9198d.png",
+      "dist/images/projects/endorfino/02-4217153e-7d44-4389-a981-a114ab9817c39f39.jpg"
+    ]
+  },
+  "energy-sticks-packaging": {
+    "gallery": [
+      "dist/images/projects/energy-sticks-packaging/01-05619895-6584-4a2d-a774-233a7a82ac19.jpg"
+    ]
+  },
+  "eu-student-union-meeting-logo": {
+    "gallery": [
+      "dist/images/projects/eu-student-union-meeting-logo/01-12f2c0f1-f5bc-488b-82a3-9a7476796230.jpg",
+      "dist/images/projects/eu-student-union-meeting-logo/02-7336a2c3-1501-4347-8d10-8c9b8553c46dc5bb.png"
+    ]
+  },
+  "eye-patches-packaging": {
+    "modalTitle": "SKINPLUS · Eye patches packaging",
+    "gallery": [
+      "dist/images/projects/eye-patches-packaging/01-00df4033-372d-46b9-828c-2e146e7293be.jpg"
+    ]
+  },
+  "fit-fresh-with-ivka": {
+    "gallery": [
+      "dist/images/projects/fit-fresh-with-ivka/01-cfb13330-b123-422e-b011-a78626fffa98.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/02-bce85df4-ec5e-487c-97de-1fa4b519dfecb389.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/03-beb45485-dbb5-44b1-91f2-4d0b271c62d2d4d4.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/04-7059b2bb-b54e-450f-8db9-adfb06eaa9ea2503.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/05-c87f197e-d8f1-4b5c-9a0a-e3762ac24f1a9dd7.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/06-4041c8ad-ed91-476b-b7de-3ede3b6d4354296a.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/07-a0924172-b22a-4ce2-af13-a07c52448d2f2917.jpg",
+      "dist/images/projects/fit-fresh-with-ivka/08-a7940bf2-5dfd-4365-836d-34978220b332c9f4.jpg"
+    ]
+  },
+  "flame-brand": {
+    "gallery": [
+      "dist/images/projects/flame-brand/01-3a8d239d-2952-44bf-b837-a24c385ea9ba.jpg",
+      "dist/images/projects/flame-brand/02-28048598-ecbb-4d02-9be2-e8cccddac8225768.jpg",
+      "dist/images/projects/flame-brand/03-9a98f5ab-202b-4cb4-957f-e467add9bccc1064.jpg"
+    ]
+  },
+  "heal": {
+    "gallery": [
+      "dist/images/projects/heal/01-d724676b-3bd3-4dfa-9d5c-6a551ecd2cf9.jpg",
+      "dist/images/projects/heal/02-c20be19c-8efe-479f-9a6f-2be45c7ce3170773.jpg",
+      "dist/images/projects/heal/03-7c06d389-b97d-484e-ab92-9ecdb22b58d91d2c.jpg"
+    ]
+  },
+  "inner-wheel-seal": {
+    "gallery": [
+      "dist/images/projects/inner-wheel-seal/01-cover.png",
+      "dist/images/projects/inner-wheel-seal/02-e3d4abeb-7d98-476e-8f6f-9828718ab9b25ab6.jpg"
+    ]
+  },
+  "kalia-eood": {
+    "previewFit": "contain",
+    "gallery": [
+      "dist/images/projects/kalia-eood/01-2de74377-2975-4373-8918-21706ac6c9d6.jpg",
+      "dist/images/projects/kalia-eood/02-4afa9cb2-5857-4037-9678-174f40179f78e8e4.jpg"
+    ]
+  },
+  "kreda": {
+    "gallery": [
+      "dist/images/projects/kreda/01-edd6c98b-af6d-4a75-b63b-fc3e37f044a8.jpg",
+      "dist/images/projects/kreda/02-ac9431f4-c9a2-421d-b615-26bf0f756ec29740.jpg",
+      "dist/images/projects/kreda/03-9fc47765-1eb5-4222-aa79-bba363533da9b4d4.jpg",
+      "dist/images/projects/kreda/04-8c6b7168-0d7a-4b39-ba55-36adb31bcae04932.jpg",
+      "dist/images/projects/kreda/05-25b2b920-90d2-48bb-ba94-443f4cf4690a2f42.jpg",
+      "dist/images/projects/kreda/06-3f9e046a-b58d-4480-99ee-5c534f23f30c4cfc.jpg",
+      "dist/images/projects/kreda/07-1bd50f58-96de-437c-a07a-ef13e6f31340a93e.jpg",
+      "dist/images/projects/kreda/08-209b4d16-ac5d-42ca-b81a-e2bdd89c12cc4817.jpg",
+      "dist/images/projects/kreda/09-35d0c642-9a5c-440d-8bd0-9b24b469040d6eb1.jpg"
+    ]
+  },
+  "lantum-flyer-illustration": {
+    "gallery": [
+      "dist/images/projects/lantum-flyer-illustration/01-8e1408cf-6efd-4fb0-9518-271286e9ba40.jpg",
+      "dist/images/projects/lantum-flyer-illustration/02-84d9dbae-a71d-4c3e-abf0-6108157a82b8aab9.jpg",
+      "dist/images/projects/lantum-flyer-illustration/03-9935d86a-ba1f-4dd5-aa20-7c958a664cf2345c.jpg",
+      "dist/images/projects/lantum-flyer-illustration/04-b743b96d-312e-4f94-874e-9bc1c741c88a8bc6.jpg"
+    ]
+  },
+  "logo-ideas-for-modern-urban-cafeteria": {
+    "gallery": [
+      "dist/images/projects/logo-ideas-for-modern-urban-cafeteria/01-b063c609-bddf-4f4d-a4b8-24a39431c472.jpg",
+      "dist/images/projects/logo-ideas-for-modern-urban-cafeteria/02-b5cdccf3-f9b8-41c1-a155-120623322514414b.jpg",
+      "dist/images/projects/logo-ideas-for-modern-urban-cafeteria/03-f5216920-6bd7-47b7-a9f1-c9c9f1d16373d86d.jpg",
+      "dist/images/projects/logo-ideas-for-modern-urban-cafeteria/04-6d162a70-6a8c-48f3-90d2-11713d32cbf4bd12.jpg",
+      "dist/images/projects/logo-ideas-for-modern-urban-cafeteria/05-a4361223-39b6-4372-8422-dd4cb30321efe9c4.jpg"
+    ]
+  },
+  "mice-monkeys": {
+    "gallery": [
+      "dist/images/projects/mice-monkeys/01-742e9502-263a-4152-8488-e3be87170cea.jpg",
+      "dist/images/projects/mice-monkeys/02-7155ed82-6201-432d-93f2-cc1c5801501026e9.jpg",
+      "dist/images/projects/mice-monkeys/03-a2e7676d-797a-47f9-9070-2a6a4048076ca2df.jpg",
+      "dist/images/projects/mice-monkeys/04-7f7fd4d9-875d-4a6a-bea2-64c06d7cbf2d13f5.jpg",
+      "dist/images/projects/mice-monkeys/05-fd4af315-4b3b-4087-b099-79473fd4d496fa99.jpg",
+      "dist/images/projects/mice-monkeys/06-25df2fb7-1074-4dd2-9f59-5a4d57c09f5bdf3e.jpg",
+      "dist/images/projects/mice-monkeys/07-84d8e893-37b6-4216-9fc9-341faf2cf8910b63.jpg",
+      "dist/images/projects/mice-monkeys/08-7079ed3b-336f-470e-b373-e348f67090e2ad03.jpg"
+    ]
+  },
+  "packaging-design": {
+    "gallery": [
+      "dist/images/projects/packaging-design/01-4ec4e3b2-77fa-4a5c-af07-09c53edb9bdf.png"
+    ]
+  },
+  "pet-food": {
+    "gallery": [
+      "dist/images/projects/pet-food/01-0c0a39cd-793d-4597-a761-f68eccd2b668.jpg"
+    ]
+  },
+  "pretty-woman-clothing-store": {
+    "gallery": [
+      "dist/images/projects/pretty-woman-clothing-store/01-767e511b-a7e0-4d63-898e-fe6436429e2f.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/02-253bfa51-43f5-4aba-9850-eaed4f8224280f9c.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/03-b97b8e25-c6e2-4423-a312-de632950fe203eae.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/04-daed65fe-02f8-4def-bc6a-5e095c35aee58b89.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/05-a6a45340-892a-44ca-ac39-ff0c12267ee9c028.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/06-0fa543d7-d3d6-4cfc-81e1-fe09bb17879dfb01.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/07-47dafadb-4534-4f3d-add1-1f302d173f038158.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/08-78f82548-78cf-445b-b0ed-14c27519ca73872c.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/09-e27528f8-03aa-44e7-bdc9-98a111297e761090.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/10-f95c05c1-c95a-43d2-9960-12a441e30c81372a.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/11-903f7690-5987-47c6-aeb0-a3f8624dcd6f429c.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/12-3f43cfb2-c3f0-43f3-93e5-0e74f632a51daa71.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/13-5c1dc0ed-30f4-4768-8410-7471ad17b67d8199.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/14-9f501799-ae38-4f8e-aba5-1b1f9c7d068cee6a.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/15-8c6729d0-a1fd-4879-82e8-b13f9b8913a1b889.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/16-ca80fa1e-39e3-4fd0-a557-e11b822c87b91425.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/17-97cdb71d-bcce-4a05-8d16-e22e1b5e1b34cade.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/18-8d76ef82-6f68-49f0-9a8e-36ae3cbdcae842c2.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/19-65479fcb-9571-41e8-bab5-2fc667e61a972701.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/20-10747a02-02f4-4d88-984d-d306a673cb354bec.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/21-9f75fd8f-b52c-45d2-822c-f7194f4797926eb9.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/22-206b88c2-b387-435f-b4fe-e814401a59fbc809.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/23-3e667895-8b16-4a28-b813-a66d31e256bb2458.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/24-6a74cc06-d8aa-413d-9ec0-d75bd52decff6be2.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/25-67772d3d-6f46-402d-8e80-be0ffdba4806e0a3.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/26-29bc08f5-c47e-4b8d-b9b2-8b2b5f1e9d42e136.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/27-42e500ca-3a4a-4bb9-980e-213e9faaaea2613d.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/28-4f0b339b-ed36-411d-ad80-b7b158f565405208.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/29-06c2faa8-2896-40a8-9d7d-0c845fa91c58fc68.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/30-59b7e5a5-e24f-42b9-87ae-809ff3cec185b9e3.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/31-84a4ba1d-9985-48ba-bdb1-c35327222a52f0a6.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/32-753ec760-1161-4b65-b938-f04bea988ccc8b67.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/33-dda5988b-7462-47b7-913a-533d573f2ce4a64e.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/34-6ba65ba0-b0fb-4bb8-9574-d0561fb8100a24cd.jpg",
+      "dist/images/projects/pretty-woman-clothing-store/35-495e71ce-72d4-4a0b-b363-079e60a46988e6b1.jpg"
+    ]
+  },
+  "prospective-campaign-for-wizzair": {
+    "gallery": [
+      "dist/images/projects/prospective-campaign-for-wizzair/01-6b268200-959a-4e07-affb-5e6bf3ab8233.jpg",
+      "dist/images/projects/prospective-campaign-for-wizzair/02-7910a5e1-d799-4700-b09b-570d4001a40b8a96.jpg"
+    ]
+  },
+  "racitebg": {
+    "gallery": [
+      "dist/images/projects/racitebg/01-001981a4-3aff-4217-87d9-a540136d3832.png",
+      "dist/images/projects/racitebg/02-f4f2d4f0-2ec0-4c1e-8c8c-7dd3a598312cbeab.jpg"
+    ]
+  },
+  "sail": {
+    "gallery": [
+      "dist/images/projects/sail/01-c5b1fdaf-c9ce-4cd2-acaf-4fddae2c5e33.jpg"
+    ]
+  },
+  "shampoo-bar": {
+    "gallery": [
+      "dist/images/projects/shampoo-bar/01-d95a69cf-1c2b-4b89-83fb-01ff0ed0a5b9.png"
+    ]
+  },
+  "siyanavelikova": {
+    "gallery": [
+      "dist/images/projects/siyanavelikova/01-9546c00a-3800-4e94-85ce-aa034783c43c.jpg",
+      "dist/images/projects/siyanavelikova/02-edc40b24-6177-4452-b4da-f5b3ca27ce865e19.png"
+    ]
+  },
+  "smarttax-leaflets-and-website": {
+    "gallery": [
+      "dist/images/projects/smarttax-leaflets-and-website/01-1468ef6e-e79e-4ad4-af0d-fb0e48dd92e1.jpg",
+      "dist/images/projects/smarttax-leaflets-and-website/02-37aee957-6235-44e0-8b9c-15127b81d50bec1c.png"
+    ]
+  },
+  "so-balqan": {
+    "gallery": [
+      "dist/images/projects/so-balqan/01-522eb354-7579-4117-bd21-6e48163dab99.jpg",
+      "dist/images/projects/so-balqan/02-070f5e48-51d2-42e9-bed6-f095a1745f085108.jpg",
+      "dist/images/projects/so-balqan/03-5624d19d-76f5-4ee5-acc0-3330efa74b5576d6.jpg",
+      "dist/images/projects/so-balqan/04-435197b2-e95f-4c4f-9cf8-337c0fe3b0ef0eed.jpg",
+      "dist/images/projects/so-balqan/05-87df7002-1d91-4a4a-a3e3-4f3a6a94b7201265.jpg"
+    ]
+  },
+  "sun-moon-wines": {
+    "gallery": [
+      "dist/images/projects/sun-moon-wines/01-17b707e8-a1a3-4c49-b8e7-a0e681d17728.jpg",
+      "dist/images/projects/sun-moon-wines/02-d6f56ec7-d6b8-4f26-95ee-c9487887bbe8cddd.jpg",
+      "dist/images/projects/sun-moon-wines/03-bf9f4033-8d43-42cf-8a02-0e0252d863f8a733.jpg",
+      "dist/images/projects/sun-moon-wines/04-b2e7c82e-0fa1-4409-8d67-d5ef691be19c4a14.jpg",
+      "dist/images/projects/sun-moon-wines/05-c55efc6e-1922-418b-9121-59be043cc93e4a91.jpg",
+      "dist/images/projects/sun-moon-wines/06-630febaa-42df-46fe-ad17-c5f78c7005b9988a.jpg",
+      "dist/images/projects/sun-moon-wines/07-a526cbab-85f7-4c22-a385-5b045ed7b4b5a0ca.jpg",
+      "dist/images/projects/sun-moon-wines/08-c7b93445-d39a-4041-9763-7d9284d80bd4f38e.jpg"
+    ]
+  },
+  "website-design-mychefskitchen": {
+    "gallery": [
+      "dist/images/projects/website-design-mychefskitchen/01-13a3fc52-9637-4d9c-bd01-07aa51441380.jpg"
+    ]
+  },
+  "wine-harbour-illustration": {
+    "previewFit": "contain",
+    "gallery": [
+      "dist/images/projects/wine-harbour-illustration/01-536df5c7-99c8-4ce0-872a-2584d2548726.png"
+    ]
+  },
+  "zodiac": {
+    "gallery": [
+      "dist/images/projects/zodiac/01-390d22cb-a5fb-416f-bf4a-1537cb704ad9.jpg",
+      "dist/images/projects/zodiac/02-724f8c6f-dcd1-4add-b13b-3a41fc2b9fb35904.jpg",
+      "dist/images/projects/zodiac/03-8d70fc0d-4242-4c52-ad65-fcf557b332b12dad.jpg",
+      "dist/images/projects/zodiac/04-619d1b20-24e2-4031-9b97-0bc0f19a3425768d.jpg",
+      "dist/images/projects/zodiac/05-864262bf-8ae0-49a7-a9a6-fe9f70ce3b8343f0.jpg",
+      "dist/images/projects/zodiac/06-4aad6e38-ff7c-4dac-a7a4-2160df41f262ecfe.jpg",
+      "dist/images/projects/zodiac/07-d9e9ec8c-d697-42b0-b9da-aad6a1193646d711.jpg",
+      "dist/images/projects/zodiac/08-79df1ab7-4bc1-4c79-aa3b-8ebebd6255f659d2.jpg",
+      "dist/images/projects/zodiac/09-d7aebd7e-7ab1-44a8-9c5a-df7acb23d9f8c20f.jpg",
+      "dist/images/projects/zodiac/10-b832f681-f4b6-4efd-803a-d49de8b61afeae84.jpg",
+      "dist/images/projects/zodiac/11-16a290e4-0808-458e-bf3f-4558183dd0e9c319.jpg",
+      "dist/images/projects/zodiac/12-40c82b3f-3cea-4903-b688-c7ad57e97a2ee683.jpg",
+      "dist/images/projects/zodiac/13-4108379c-3f98-43b6-8cde-3e252d69de99c258.jpg",
+      "dist/images/projects/zodiac/14-2036b409-dfe4-4c90-b3e1-1805f08e36cf5e27.jpg",
+      "dist/images/projects/zodiac/15-e0843f5d-a5e0-449a-b7a8-86e8eec5e928cd67.jpg",
+      "dist/images/projects/zodiac/16-a802337e-5c26-4b3a-b84a-fa6e4b9bda05aeec.jpg",
+      "dist/images/projects/zodiac/17-9508a6e6-91bf-445b-ad45-3f968768e7fe20ab.jpg",
+      "dist/images/projects/zodiac/18-bc4b6ad8-33c1-4671-8360-bc0ad0e8d2197d34.jpg",
+      "dist/images/projects/zodiac/19-ff20a39a-d442-48c3-9e18-7eeffd991431d816.jpg"
+    ]
+  },
+  "zoo-project": {
+    "gallery": [
+      "dist/images/projects/zoo-project/01-6e141771-c473-4fd0-8e47-af48d3f9f1a8.jpg",
+      "dist/images/projects/zoo-project/02-2ffcff4c-2b0d-4c46-91e1-75597b7284442954.jpg",
+      "dist/images/projects/zoo-project/03-188c2bf0-26c2-4e64-944b-213d031253e70f65.jpg"
+    ]
+  },
+  "bolyarci": {
+    "gallery": [
+      "dist/images/projects/bolyarci/01-d69e37f9-80af-42b9-9abd-9478cca3aaa3.jpg",
+      "dist/images/projects/bolyarci/02-975d6404-49b3-4498-923c-055139b695f21248.jpg",
+      "dist/images/projects/bolyarci/03-0c7302db-d30e-4365-9e4d-1e675b8c7698cd11.jpg"
+    ]
+  },
+  "idei-za-igri-carrot": {
+    "gallery": [
+      "dist/images/projects/idei-za-igri-carrot/01-cabd0784-dc65-4184-95d0-60a4ea7943c6.jpg",
+      "dist/images/projects/idei-za-igri-carrot/02-bc1a7f93-de89-49dc-b516-254d17b6e54ceb4c.jpg",
+      "dist/images/projects/idei-za-igri-carrot/03-0881dd8f-90d8-41af-9d54-ee785f69160b4278.jpg",
+      "dist/images/projects/idei-za-igri-carrot/04-f47bc107-2f7b-4567-99e6-c9d8d7f809308a35.jpg"
+    ]
+  },
+  "solnisko-susukane": {
+    "gallery": [
+      "dist/images/projects/solnisko-susukane/01-0efcee0c-6be9-46db-82f8-3ed85bba67b9.jpg",
+      "dist/images/projects/solnisko-susukane/02-0a66e764-7fe6-431c-aac2-379a1a8b4a1eddb7.jpg"
+    ]
+  },
+  "spiesanie-ocen-pregled": {
+    "gallery": [
+      "dist/images/projects/spiesanie-ocen-pregled/01-42de71ec-0869-4f57-9b8e-ed17e1c44b5e.jpg",
+      "dist/images/projects/spiesanie-ocen-pregled/02-05ae12c4-5093-4392-8591-17dbce36d1106f65.jpg",
+      "dist/images/projects/spiesanie-ocen-pregled/03-00aa9ecb-22b1-4a50-9316-c887b7894833295c.jpg",
+      "dist/images/projects/spiesanie-ocen-pregled/04-83f4a929-aef7-4e7c-a6cf-e0ab9c255fd4e662.jpg",
+      "dist/images/projects/spiesanie-ocen-pregled/05-31fd5c52-ae4b-4cc2-8965-89537f3fecce2f56.jpg",
+      "dist/images/projects/spiesanie-ocen-pregled/06-bee579fd-9392-48fe-b14c-7de8235c65be4b33.jpg"
+    ]
+  },
+  "businesscards": {
+    "gallery": [
+      "dist/images/projects/businesscards/01-63dc9f25-caa4-47ae-8bfb-fc100b0d97b3.jpg"
+    ]
+  },
+  "christmas-concert": {
+    "gallery": [
+      "dist/images/projects/christmas-concert/01-dd5189b4-5ed6-4480-a8bb-f59adb738989.jpg",
+      "dist/images/projects/christmas-concert/02-c85faacd-86d0-4063-9cec-7d53c7ee01f7d349.jpg",
+      "dist/images/projects/christmas-concert/03-4b9ba7f6-89c2-4fb2-9278-735eceb3488ed041.jpg"
+    ]
+  },
+  "art-for-picture-decorations": {
+    "gallery": [
+      "dist/images/projects/art-for-picture-decorations/01-a8177ad3-213e-4f14-adc9-d2aba05ef1f2.jpg",
+      "dist/images/projects/art-for-picture-decorations/02-e69ecd71-67e2-4750-925e-b9a16eb464d24cb9.jpg",
+      "dist/images/projects/art-for-picture-decorations/03-58b2e26f-9b43-4823-8e6b-8fdd69d79fbc7311.jpg",
+      "dist/images/projects/art-for-picture-decorations/04-51a5e8ce-88b8-455c-a1c0-c06cb8a4f7eb1d71.jpg",
+      "dist/images/projects/art-for-picture-decorations/05-9d46c814-c0c7-4e9c-bc50-7ddeb70b9a310781.jpg",
+      "dist/images/projects/art-for-picture-decorations/06-9861bccf-e339-433c-a264-2b7c4fe3e5f86662.jpg",
+      "dist/images/projects/art-for-picture-decorations/07-5ce1b611-0255-4c6a-b5df-f194cf735d1fcf68.png"
     ]
   },
   "chas-za": {
@@ -33,7 +403,6 @@
       "dist/images/projects/chas-za/05-Intro 3 [statusbar_light].png",
       "dist/images/projects/chas-za/06-Intro 4 [statusbar_light].png",
       "dist/images/projects/chas-za/07-Job Details.png",
-      "dist/images/projects/chas-za/08-Profile-1.png",
       "dist/images/projects/chas-za/09-Profile.png",
       "dist/images/projects/chas-za/10-Proposals.png",
       "dist/images/projects/chas-za/11-ResetPassword.png",
@@ -41,7 +410,6 @@
       "dist/images/projects/chas-za/13-Successfully Sent.png",
       "dist/images/projects/chas-za/14-[container][aspectratio_screen]-1.png",
       "dist/images/projects/chas-za/15-[container][aspectratio_screen].png",
-      "dist/images/projects/chas-za/16-[menu_tabs].png",
       "dist/images/projects/chas-za/17-business.png",
       "dist/images/projects/chas-za/18-logo.png",
       "dist/images/projects/chas-za/19-notifications.png",
