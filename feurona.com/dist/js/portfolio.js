@@ -183,6 +183,15 @@
 
   const featuredAppsProjects = [
     {
+      title: "Monabot",
+      href: "https://monabot-app.vercel.app/",
+      external: true,
+      viewLabel: "View app simulation",
+      image: "dist/images/projects/monabot-logo.png",
+      previewFit: "contain",
+      desc: "Monabot mobile app — friendly bot assistant UI with a clean purple brand and modern, approachable interface.",
+    },
+    {
       title: "helt.ty — Здраве. Ежедневно. Ти.",
       href: "https://heltty.vercel.app/",
       external: true,
