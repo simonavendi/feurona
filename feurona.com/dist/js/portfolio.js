@@ -666,8 +666,8 @@
 
   async function loadProjectRegistry() {
     const [projectsRes, detailsRes] = await Promise.all([
-      fetch(assetUrl("dist/js/projects-data.json?v=12")),
-      fetch(assetUrl("dist/js/project-details.json?v=48")),
+      fetch(assetUrl("dist/js/projects-data.json?v=13")),
+      fetch(assetUrl("dist/js/project-details.json?v=50")),
     ]);
     if (!projectsRes.ok) throw new Error("projects-data.json failed");
     const projects = await projectsRes.json();
