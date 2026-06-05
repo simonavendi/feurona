@@ -1,33 +1,53 @@
 [
   {
+    "href": "amare.html",
+    "image": "dist/images/projects/amare/02-scrab225.png",
+    "title": "Feurona - Amare product and label design, visuals"
+  },
+  {
+    "href": "zodia-therapy-product-design.html",
+    "image": "dist/images/projects/zodia-therapy-product-design/64-promo-your-element-candle-necklace-water.png",
+    "title": "Feurona - Product design for cosmetic products and visuals"
+  },
+  {
+    "href": "ue-varna.html",
+    "image": "dist/images/projects/ue-varna/02-2.png",
+    "title": "Feurona - UE Varna"
+  },
+  {
     "href": "eye-patches-packaging.html",
     "image": "dist/images/projects/eye-patches-packaging.jpg",
     "title": "Feurona - Eye patches packaging"
   },
   {
-    "href": "amare.html",
-    "image": "dist/images/projects/amare-logo.svg",
-    "title": "Feurona - Amare product and label design, visuals"
+    "href": "auralis.html",
+    "image": "dist/images/projects/auralis/01-5f3bcf1c-4ab2-4f7d-ae87-1b94f3b7272c.png",
+    "title": "Feurona - Auralis cosmetic label design"
   },
   {
-    "href": "zodia-therapy-product-design.html",
-    "image": "dist/images/projects/zodiatherapy-logo.svg",
-    "title": "Feurona - Product design for cosmetic products and visuals"
+    "href": "orivelle.html",
+    "image": "dist/images/projects/orivelle/01-1c34abe0-6b63-4794-9a89-6359cb15c527.png",
+    "title": "Feurona - Orivelle cosmetic label design"
   },
   {
-    "href": "ue-varna.html",
-    "image": "dist/images/projects/ue-varna/Logo-UE_Blue.png",
-    "title": "Feurona - UE Varna"
+    "href": "aurelian.html",
+    "image": "dist/images/projects/aurelian/01-f4cd35e4-4968-4ab3-ba14-8f5aff6f4c63.png",
+    "title": "Feurona - Aurelian cosmetic label design"
   },
   {
-    "href": "biana-photography.html",
-    "image": "dist/images/projects/biana-photography.jpg",
-    "title": "Feurona - Biana Photography"
+    "href": "mycora.html",
+    "image": "dist/images/projects/mycora/01-b8f5d6b8-2627-4e3e-965b-7d754e011f12.png",
+    "title": "Feurona - Mycora cosmetic label design"
   },
   {
-    "href": "bulgarian-storm-logo-t-shirt-design.html",
-    "image": "dist/images/projects/bulgarian-storm-logo-t-shirt-design.jpg",
-    "title": "Feurona - Bulgarian Storm Logo &amp; T-shirt design"
+    "href": "verdeo.html",
+    "image": "dist/images/projects/verdeo/01-43ceda0f-c560-4799-b447-050cbc234296.png",
+    "title": "Feurona - Verdeo cosmetic label design"
+  },
+  {
+    "href": "zayra.html",
+    "image": "dist/images/projects/zayra/01-472ba38a-3285-4a76-a394-989a074aef7e.png",
+    "title": "Feurona - Zayra cosmetic label design"
   },
   {
     "href": "cookies-packaging.html",
@@ -50,11 +70,6 @@
     "title": "Feurona - Elaste Magazine"
   },
   {
-    "href": "endorfino.html",
-    "image": "dist/images/projects/endorfino.jpg",
-    "title": "Feurona - Endorfino"
-  },
-  {
     "href": "energy-sticks-packaging.html",
     "image": "dist/images/projects/energy-sticks-packaging.jpg",
     "title": "Feurona - Energy sticks packaging"
@@ -63,36 +78,6 @@
     "href": "eu-student-union-meeting-logo.html",
     "image": "dist/images/projects/eu-student-union-meeting-logo.jpg",
     "title": "Feurona - EU STUDENT UNION MEETING logo"
-  },
-  {
-    "href": "fit-fresh-with-ivka.html",
-    "image": "dist/images/projects/fit-fresh-with-ivka.jpg",
-    "title": "Feurona - Fit &amp; Fresh with Ivka"
-  },
-  {
-    "href": "flame-brand.html",
-    "image": "dist/images/projects/flame-brand.jpg",
-    "title": "Feurona - Flame brand"
-  },
-  {
-    "href": "heal.html",
-    "image": "dist/images/projects/heal.jpg",
-    "title": "Feurona - HEAL"
-  },
-  {
-    "href": "inner-wheel-seal.html",
-    "image": "dist/images/projects/inner-wheel-seal/01-cover.png",
-    "title": "Feurona - Inner Wheel Seal"
-  },
-  {
-    "href": "kalia-eood.html",
-    "image": "dist/images/projects/kalia-eood.jpg",
-    "title": "Feurona - Kalia EOOD"
-  },
-  {
-    "href": "kreda.html",
-    "image": "dist/images/projects/kreda.jpg",
-    "title": "Feurona - KREDA"
   },
   {
     "href": "lantum-flyer-illustration.html",
@@ -118,11 +103,6 @@
     "href": "pet-food.html",
     "image": "dist/images/projects/pet-food.jpg",
     "title": "Feurona - Pet food"
-  },
-  {
-    "href": "pretty-woman-clothing-store.html",
-    "image": "dist/images/projects/pretty-woman-clothing-store.jpg",
-    "title": "Feurona - PRETTY WOMAN CLOTHING STORE"
   },
   {
     "href": "prospective-campaign-for-wizzair.html",
@@ -164,16 +144,6 @@
     "href": "sun-moon-wines.html",
     "image": "dist/images/projects/sun-moon-wines.jpg",
     "title": "Feurona - Sun &amp; Moon wines"
-  },
-  {
-    "href": "website-design-mychefskitchen.html",
-    "image": "dist/images/projects/website-design-mychefskitchen.jpg",
-    "title": "Feurona - Website design mychefskitchen"
-  },
-  {
-    "href": "wine-harbour-illustration.html",
-    "image": "dist/images/projects/wine-harbour-illustration/01-536df5c7-99c8-4ce0-872a-2584d2548726.png",
-    "title": "Feurona - Wine Harbour Logo"
   },
   {
     "href": "zodiac.html",
@@ -224,5 +194,60 @@
     "href": "comics-nem-takva-darzav.html",
     "image": "dist/images/projects/comics-nem-takva-darzav.jpg",
     "title": "Feurona - Comics &quot;Немъ такъва даржавъ&quot;"
+  },
+  {
+    "href": "endorfino.html",
+    "image": "dist/images/projects/endorfino.jpg",
+    "title": "Feurona - Endorfino"
+  },
+  {
+    "href": "fit-fresh-with-ivka.html",
+    "image": "dist/images/projects/fit-fresh-with-ivka.jpg",
+    "title": "Feurona - Fit &amp; Fresh with Ivka"
+  },
+  {
+    "href": "flame-brand.html",
+    "image": "dist/images/projects/flame-brand.jpg",
+    "title": "Feurona - Flame brand"
+  },
+  {
+    "href": "heal.html",
+    "image": "dist/images/projects/heal.jpg",
+    "title": "Feurona - HEAL"
+  },
+  {
+    "href": "inner-wheel-seal.html",
+    "image": "dist/images/projects/inner-wheel-seal/01-cover.png",
+    "title": "Feurona - Inner Wheel Seal"
+  },
+  {
+    "href": "biana-photography.html",
+    "image": "dist/images/projects/biana-photography.jpg",
+    "title": "Feurona - Biana Photography"
+  },
+  {
+    "href": "bulgarian-storm-logo-t-shirt-design.html",
+    "image": "dist/images/projects/bulgarian-storm-logo-t-shirt-design.jpg",
+    "title": "Feurona - Bulgarian Storm Logo &amp; T-shirt design"
+  },
+  {
+    "href": "kalia-eood.html",
+    "image": "dist/images/projects/kalia-eood.jpg",
+    "title": "Feurona - Kalia EOOD"
+  },
+  {
+    "href": "kreda.html",
+    "image": "dist/images/projects/kreda.jpg",
+    "title": "Feurona - KREDA"
+  },
+  {
+    "href": "pretty-woman-clothing-store.html",
+    "image": "dist/images/projects/pretty-woman-clothing-store.jpg",
+    "title": "Feurona - PRETTY WOMAN CLOTHING STORE"
+  },
+  {
+    "href": "wine-harbour-illustration.html",
+    "image": "dist/images/projects/wine-harbour-illustration/01-536df5c7-99c8-4ce0-872a-2584d2548726.png",
+    "title": "Feurona - Wine Harbour Logo"
   }
 ]

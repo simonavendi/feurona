@@ -14,7 +14,7 @@ const CDN_ROOT = path.join(REPO_ROOT, "cdn.myportfolio.com");
 const PROJECTS_DATA = path.join(ROOT, "dist/js/projects-data.json");
 const DETAILS_PATH = path.join(ROOT, "dist/js/project-details.json");
 const PRESERVED = path.join(__dirname, "preserved-local-galleries.json");
-const SKIP_SLUGS = new Set(["ue-varna", "chas-za", "helt-ty", "amare", "zodia-therapy-product-design"]);
+const SKIP_SLUGS = new Set(["ue-varna", "chas-za", "helt-ty", "amare", "zodia-therapy-product-design", "biana-photography", "auralis", "orivelle", "aurelian", "mycora", "verdeo", "zayra"]);
 
 const IMAGE_EXT = /\.(jpe?g|png|gif|webp|avif)$/i;
 

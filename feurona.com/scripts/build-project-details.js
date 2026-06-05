@@ -11,7 +11,7 @@ const PROJECTS_DATA = path.join(ROOT, "dist/js/projects-data.json");
 const OUTPUT = path.join(ROOT, "dist/js/project-details.json");
 
 const PRESERVED_GALLERIES = path.join(__dirname, "preserved-local-galleries.json");
-const PRESERVE_LOCAL = new Set(["ue-varna", "amare", "zodia-therapy-product-design", "chas-za", "helt-ty"]);
+const PRESERVE_LOCAL = new Set(["ue-varna", "amare", "zodia-therapy-product-design", "biana-photography", "auralis", "orivelle", "aurelian", "mycora", "verdeo", "zayra", "chas-za", "helt-ty"]);
 
 const IMAGE_EXT = /\.(jpe?g|png|gif|webp|avif)(\?.*)?$/i;
 

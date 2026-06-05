@@ -1285,14 +1285,17 @@ main { min-height: 100vh; padding-bottom: calc(6.25rem + env(safe-area-inset-bot
 .portfolio-item-overlay {
   position: absolute;
   inset: 0;
+  z-index: 1;
   display: flex;
   align-items: flex-end;
   padding: 1rem;
   background: linear-gradient(to top, rgba(0,0,0,0.55), transparent 55%);
   opacity: 0;
+  pointer-events: none;
   transition: opacity 0.3s;
 }
-.portfolio-item:hover .portfolio-item-overlay { opacity: 1; }
+.portfolio-item:hover .portfolio-item-overlay,
+.portfolio-item:focus-visible .portfolio-item-overlay { opacity: 1; }
 .portfolio-item-title {
   color: #fff;
   font-size: 14px;

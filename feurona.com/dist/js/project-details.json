@@ -1,8 +1,6 @@
 {
   "ue-varna": {
     "desc": "Graphic design for University of Economics — Varna: posters, banners, branded materials, logos, and visual identity for institutional events and initiatives including UEBN, Career Forum, and UEVA.",
-    "previewFit": "contain",
-    "previewScale": 0.55,
     "gallery": [
       "dist/images/projects/ue-varna/02-2.png",
       "dist/images/projects/ue-varna/03-482321148_1082948687212734_5833345999045991436_n.jpg",
@@ -22,7 +20,6 @@
   },
   "amare": {
     "desc": "Brand identity and product design for Amare Spa Therapy — scrubs, lotions, candles, and beauty cosmetics packaging with a clean spa-led visual language.",
-    "previewFit": "contain",
     "gallery": [
       "dist/images/projects/amare/02-scrab225.png",
       "dist/images/projects/amare/03-scrab50-showcase.png",
@@ -38,8 +35,6 @@
   },
   "zodia-therapy-product-design": {
     "desc": "Product design and visuals for Zodia Therapy cosmetic products — zodiac-themed necklaces, lotions, candles, and promotional gift box packaging.",
-    "previewFit": "contain",
-    "previewScale": 0.6,
     "modalLogo": "dist/images/projects/zodiatherapy-logo.svg",
     "gallery": [
       "dist/images/projects/zodia-therapy-product-design/64-promo-your-element-candle-necklace-water.png",
@@ -106,6 +101,49 @@
       "dist/images/projects/zodia-therapy-product-design/03-necklaces-air-main.png",
       "dist/images/projects/zodia-therapy-product-design/02-necklaces-air-3rd.png",
       "dist/images/projects/zodia-therapy-product-design/01-necklaces-air-2nd.png"
+    ]
+  },
+  "auralis": {
+    "gallery": [
+      "dist/images/projects/auralis/01-5f3bcf1c-4ab2-4f7d-ae87-1b94f3b7272c.png",
+      "dist/images/projects/auralis/02-a5da7865-344e-476b-80ac-68a46bdb7884.png",
+      "dist/images/projects/auralis/03-ba8f3612-8b12-41e0-acb6-869538bf9826.png"
+    ]
+  },
+  "orivelle": {
+    "gallery": [
+      "dist/images/projects/orivelle/01-1c34abe0-6b63-4794-9a89-6359cb15c527.png",
+      "dist/images/projects/orivelle/02-2152e560-2971-448d-b0ce-edcad6047912.png",
+      "dist/images/projects/orivelle/03-25378ad4-de52-4b87-a868-0d1e838006dd.png",
+      "dist/images/projects/orivelle/04-92df8a28-dc51-483b-b350-d49db6b0a099.png",
+      "dist/images/projects/orivelle/05-e56d4f9b-4d46-4003-b7a2-d8e0dc930c12.png"
+    ]
+  },
+  "aurelian": {
+    "gallery": [
+      "dist/images/projects/aurelian/01-f4cd35e4-4968-4ab3-ba14-8f5aff6f4c63.png",
+      "dist/images/projects/aurelian/02-f60a3dd6-3f43-4300-b363-2ff027fa634f.png"
+    ]
+  },
+  "mycora": {
+    "gallery": [
+      "dist/images/projects/mycora/01-b8f5d6b8-2627-4e3e-965b-7d754e011f12.png",
+      "dist/images/projects/mycora/02-ee163472-08b4-4f97-87b1-0d8ed9feadaf.png"
+    ]
+  },
+  "verdeo": {
+    "gallery": [
+      "dist/images/projects/verdeo/01-43ceda0f-c560-4799-b447-050cbc234296.png",
+      "dist/images/projects/verdeo/02-4b0af50f-4229-4cf6-b406-68c4d2d865e1.png",
+      "dist/images/projects/verdeo/03-58e286f2-1ecb-42ef-932b-970abfca2be8.png",
+      "dist/images/projects/verdeo/04-97dd73a5-3be0-4f17-9924-cfdf31a128af.png",
+      "dist/images/projects/verdeo/05-a0554883-8a32-4afe-be0c-150c53542e80.png"
+    ]
+  },
+  "zayra": {
+    "gallery": [
+      "dist/images/projects/zayra/01-472ba38a-3285-4a76-a394-989a074aef7e.png",
+      "dist/images/projects/zayra/02-cbc35b8a-2510-4d84-a638-b18e5ba4ada7.png"
     ]
   },
   "biana-photography": {
@@ -366,11 +404,6 @@
       "dist/images/projects/sun-moon-wines/06-630febaa-42df-46fe-ad17-c5f78c7005b9988a.jpg",
       "dist/images/projects/sun-moon-wines/07-a526cbab-85f7-4c22-a385-5b045ed7b4b5a0ca.jpg",
       "dist/images/projects/sun-moon-wines/08-c7b93445-d39a-4041-9763-7d9284d80bd4f38e.jpg"
-    ]
-  },
-  "website-design-mychefskitchen": {
-    "gallery": [
-      "dist/images/projects/website-design-mychefskitchen/01-13a3fc52-9637-4d9c-bd01-07aa51441380.jpg"
     ]
   },
   "wine-harbour-illustration": {
