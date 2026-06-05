@@ -309,3 +309,182 @@ html.lightbox-zoomed #lightbox-img-wrap .lightbox-extra {
   animation-duration: 0.25s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
+
+/* Project pages overrides (heal.html, kreda.html, etc.)
+   The project template uses body.transition-enabled and loads older CSS.
+   These overrides make them render cleanly even when the transition JS
+   doesn't fully run. */
+body.transition-enabled {
+  opacity: 1 !important;
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+html.transition-enabled {
+  background: #ffffff !important;
+}
+
+div.page-background-video.page-background-video-with-panel { display: none !important; }
+.js-responsive-nav { display: none !important; }
+header.site-header.js-site-header.js-fixed-nav { display: none !important; }
+.header-placeholder { display: none !important; }
+
+/* Project template wrapper (force white background to avoid transparent canvas) */
+div.site-wrap.cfix.js-site-wrap {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.page-container[data-context="page.page.container"] {
+  background-color: #ffffff !important;
+}
+
+.page-container {
+  width: min(980px, calc(100% - 2.5rem)) !important;
+  margin-inline: auto !important;
+  padding-top: 4.5rem !important;
+}
+
+.page-header {
+  text-align: center !important;
+  margin-bottom: 2.25rem !important;
+}
+
+.page-header .title {
+  font-size: clamp(2.1rem, 7vw, 3.1rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.055em !important;
+  line-height: 1.06 !important;
+  margin: 0 !important;
+}
+
+#project-modules {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+}
+
+.project-module-image {
+  background: #f7f7f7 !important;
+  border-radius: 32px !important;
+  overflow: hidden !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.08) !important;
+}
+
+.project-module-image .js-lightbox {
+  border-radius: 32px !important;
+  overflow: hidden !important;
+}
+
+.project-module-image img {
+  border-radius: 32px !important;
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.project-module-image img.image-loaded,
+.project-module-image img[src]:not([src^="data:"]) {
+  padding-bottom: 0 !important;
+  background: transparent !important;
+}
+
+.back-to-top,
+.back-to-top-fixed {
+  margin-top: 2.5rem !important;
+  position: static !important;
+}
+
+.back-to-top-fixed {
+  display: none !important; /* keep only the in-flow back-to-top */
+}
+
+/* Fixed back control — top right on project pages */
+.project-back-link {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem 0.625rem 0.875rem;
+  border-radius: 999px;
+  background: #2e73ea;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(46, 115, 234, 0.35);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-back-link:hover,
+.project-back-link:focus-visible {
+  background: #2563c7;
+  color: #ffffff;
+  transform: scale(1.03);
+  outline: none;
+  box-shadow: 0 10px 28px rgba(46, 115, 234, 0.42);
+}
+
+.project-back-link__icon {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media (max-width: 480px) {
+  .project-back-link {
+    top: 1rem;
+    right: 1rem;
+    padding: 0.75rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+  }
+
+  .project-back-link__text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+.project-module-text {
+  max-width: 42rem;
+  margin-inline: auto;
+  padding: 0 0.5rem 0.5rem;
+}
+
+.project-module-text .module-text,
+.project-intro-text {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.72);
+  text-align: left;
+}
+
+.project-intro-text p {
+  margin: 0;
+}
+
+.page-header .description {
+  margin: 0.75rem 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+/* Hide Behance footer social on project pages (main.css is not loaded on index.html) */
+footer.site-footer .pf-footer-social {
+  display: none !important;
+}

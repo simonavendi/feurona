@@ -1,8 +1,10 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/feurona.com/index.html" },
-    { "source": "/work", "destination": "/feurona.com/work.html" },
-    { "source": "/contact", "destination": "/feurona.com/contact.html" },
+    { "source": "/work", "destination": "/feurona.com/index.html" },
+    { "source": "/contact", "destination": "/feurona.com/index.html" },
+    { "source": "/dist/:path*", "destination": "/feurona.com/dist/:path*" },
+    { "source": "/:file.html", "destination": "/feurona.com/:file.html" },
     { "source": "/admin", "destination": "/admin/index.html" },
     { "source": "/project/:slug", "destination": "/api/project?slug=:slug" }
   ]

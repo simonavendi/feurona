@@ -1,0 +1,71 @@
+{
+  "ue-varna": {
+    "desc": "Graphic design for University of Economics — Varna: posters, banners, branded materials, logos, and visual identity for institutional events and initiatives including UEBN, Career Forum, and UEVA.",
+    "gallery": [
+      "dist/images/projects/ue-varna/01-main.jpg",
+      "dist/images/projects/ue-varna/02-2.png",
+      "dist/images/projects/ue-varna/03-482321148_1082948687212734_5833345999045991436_n.jpg",
+      "dist/images/projects/ue-varna/04-484810165_1081815723992697_3041170552305584659_n.jpg",
+      "dist/images/projects/ue-varna/05-485731406_1084144203759849_8197053609994480623_n.jpg",
+      "dist/images/projects/ue-varna/06-571278476_1264867532354181_7686389581046960206_n.jpg",
+      "dist/images/projects/ue-varna/07-633754381_1349642460543354_6861422483657564441_n.jpg",
+      "dist/images/projects/ue-varna/08-637217466_1353413640166236_3084552284885902169_n.jpg",
+      "dist/images/projects/ue-varna/09-649564649_1373312888176311_4242721786591509474_n.jpg",
+      "dist/images/projects/ue-varna/10-656853387_1382449487262651_2808100701756928541_n.jpg",
+      "dist/images/projects/ue-varna/11-697146188_1423406526500280_3507582473673722177_n.jpg",
+      "dist/images/projects/ue-varna/12-706649884_1433804858793780_388343073392803293_n.jpg",
+      "dist/images/projects/ue-varna/13-706727188_1433804732127126_4720915100189375495_n.jpg",
+      "dist/images/projects/ue-varna/14-e8184544-7aa3-453d-abae-1a4c0fb53317.png",
+      "dist/images/projects/ue-varna/15-ueva.png",
+      "dist/images/projects/ue-varna/16-форум-кариери.png",
+      "dist/images/projects/ue-varna/christmas-cards.jpg"
+    ]
+  },
+  "chas-za": {
+    "desc": "End-to-end UX/UI and branding for a Bulgarian appointment-booking app — onboarding, business profiles, scheduling, and a calm mobile-first experience for salons and service providers.",
+    "previewFit": "contain",
+    "gallery": [
+      "dist/images/projects/chas-za-logo.png",
+      "dist/images/projects/chas-za/01-31_My Wallet.png",
+      "dist/images/projects/chas-za/02-32_Payment method.png",
+      "dist/images/projects/chas-za/03-Intro 1  [intro_always] [statusbar_light]].png",
+      "dist/images/projects/chas-za/04-Intro 2 [statusbar_light].png",
+      "dist/images/projects/chas-za/05-Intro 3 [statusbar_light].png",
+      "dist/images/projects/chas-za/06-Intro 4 [statusbar_light].png",
+      "dist/images/projects/chas-za/07-Job Details.png",
+      "dist/images/projects/chas-za/08-Profile-1.png",
+      "dist/images/projects/chas-za/09-Profile.png",
+      "dist/images/projects/chas-za/10-Proposals.png",
+      "dist/images/projects/chas-za/11-ResetPassword.png",
+      "dist/images/projects/chas-za/12-Successfully Sent-1.png",
+      "dist/images/projects/chas-za/13-Successfully Sent.png",
+      "dist/images/projects/chas-za/14-[container][aspectratio_screen]-1.png",
+      "dist/images/projects/chas-za/15-[container][aspectratio_screen].png",
+      "dist/images/projects/chas-za/16-[menu_tabs].png",
+      "dist/images/projects/chas-za/17-business.png",
+      "dist/images/projects/chas-za/18-logo.png",
+      "dist/images/projects/chas-za/19-notifications.png",
+      "dist/images/projects/chas-za/20-offers.png",
+      "dist/images/projects/chas-za/21-schedule-1.png",
+      "dist/images/projects/chas-za/22-schedule.png",
+      "dist/images/projects/chas-za/23-Бизнес профил.png",
+      "dist/images/projects/chas-za/24-Добави услуга-1.png",
+      "dist/images/projects/chas-za/25-Добави услуга.png",
+      "dist/images/projects/chas-za/26-Известия бизнес.png",
+      "dist/images/projects/chas-za/27-Отчети.png",
+      "dist/images/projects/chas-za/28-Услуга от окото на клиент.png",
+      "dist/images/projects/chas-za/29-Често задавани въпроси.png",
+      "dist/images/projects/chas-za/30-бизнеси.png"
+    ]
+  },
+  "helt-ty": {
+    "desc": "Mobile health & wellness app UI — dashboard, activity tracking, nutrition, and profile screens with a clean, data-forward interface.",
+    "previewFit": "contain",
+    "gallery": [
+      "dist/images/projects/helt-ty/01-dashboard.png",
+      "dist/images/projects/helt-ty/02-activity.png",
+      "dist/images/projects/helt-ty/03-nutrition.png",
+      "dist/images/projects/helt-ty/04-profile.png"
+    ]
+  }
+}

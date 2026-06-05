@@ -7879,3 +7879,10 @@
         return t.substring(e + "version/".length).split(" ")[0];
     };
 } ]);
+
+(function () {
+  if (document.querySelector('script[src*="project-images.js"]')) return;
+  var s = document.createElement("script");
+  s.src = "dist/js/project-images.js?v=4";
+  document.documentElement.appendChild(s);
+})();
