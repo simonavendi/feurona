@@ -360,15 +360,15 @@
     const prevBtn = root.querySelector(".carousel-btn.prev");
     const nextBtn = root.querySelector(".carousel-btn.next");
     const controls = root.querySelector(".carousel-controls");
-    if (!stage || !dotsEl) return;
+    if (!stage) return;
 
     if (viewBelowCard) {
       stage.classList.add("carousel-stage--view-below");
-      dotsEl.classList.add("carousel-dots--view-below");
+      if (dotsEl) dotsEl.classList.add("carousel-dots--view-below");
     }
 
     if (controls) controls.hidden = viewBelowCard || projects.length === 1;
-    if (projects.length === 1) dotsEl.hidden = true;
+    if (dotsEl) dotsEl.hidden = viewBelowCard || projects.length === 1;
 
     function projectLinkAttrs(project) {
       if (project.external || /^https?:\/\//i.test(project.href)) {
@@ -522,6 +522,7 @@
     }
 
     function renderDots() {
+      if (!dotsEl || dotsEl.hidden) return;
       dotsEl.innerHTML = projects
         .map(
           (_, i) => `
