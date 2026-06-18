@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="dist/css/portfolio.css?v=16" />
+  <link rel="stylesheet" href="dist/css/portfolio.css?v=17" />
 </head>
 <body>
   <nav class="side-nav" aria-label="Site sections">
@@ -24,7 +24,7 @@
       <button type="button" class="nav-btn" data-section="about" aria-label="About">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       </button>
-      <button type="button" class="nav-btn" data-section="websites" aria-label="Work">
+      <button type="button" class="nav-btn" data-section="portfolio" aria-label="Work">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
       </button>
       <button type="button" class="nav-btn" data-section="contact" aria-label="Contact">
@@ -43,7 +43,7 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         <span>About</span>
       </button>
-      <button type="button" class="mobile-nav-btn" data-section="websites" aria-label="Work">
+      <button type="button" class="mobile-nav-btn" data-section="portfolio" aria-label="Work">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
         <span>Work</span>
       </button>
@@ -203,7 +203,7 @@
           <div class="reveal">
             <h3 class="tech-group-title">Design & UI</h3>
             <div class="tech-row"><div class="tech-icon"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="" /></div><h4 class="tech-name">Figma</h4></div>
-            <div class="tech-row"><div class="tech-icon"><img src="dist/images/tech/miro.png" alt="" /></div><h4 class="tech-name">Miro</h4></div>
+            <div class="tech-row"><div class="tech-icon"><img src="https://cdn.simpleicons.org/canva/00C4CC" alt="" /></div><h4 class="tech-name">Canva</h4></div>
             <div class="tech-row"><div class="tech-icon"><img src="dist/images/tech/photoshop.svg" alt="" /></div><h4 class="tech-name">Photoshop</h4></div>
             <div class="tech-row"><div class="tech-icon"><img src="dist/images/tech/illustrator.svg" alt="" /></div><h4 class="tech-name">Illustrator</h4></div>
             <div class="tech-row"><div class="tech-icon"><img src="dist/images/tech/indesign.svg" alt="" /></div><h4 class="tech-name">InDesign</h4></div>
@@ -250,6 +250,17 @@
       </div>
     </section>
 
+    <section id="portfolio" class="portfolio-grid-section">
+      <div class="container">
+        <div class="portfolio-grid-header reveal">
+          <h2 class="section-title">Graphic &amp; Product portfolio</h2>
+          <p id="portfolio-count" style="margin:0;font-size:15px;font-weight:600;color:rgba(0,0,0,.45)">43 selected works</p>
+        </div>
+        <div class="portfolio-grid reveal reveal-delay-1"></div>
+        <div class="portfolio-grid-more reveal reveal-delay-2"></div>
+      </div>
+    </section>
+
     <section id="websites" class="projects">
       <div class="container">
         <div class="projects-header reveal">
@@ -261,27 +272,6 @@
           <button type="button" class="carousel-btn next" aria-label="Next project">→</button>
         </div>
         <div class="carousel-dots reveal reveal-delay-3"></div>
-      </div>
-    </section>
-
-    <section id="apps" class="projects">
-      <div class="container">
-        <div class="projects-header reveal">
-          <h2 class="section-title">App portfolio</h2>
-          <p class="hobbies-sub">I don't have tons of experience yet, but app design is the field I'm most excited to grow in. I'm greatly inspired by iOS interfaces and smooth, thoughtful app experiences.</p>
-        </div>
-        <div class="carousel-stage reveal reveal-delay-1" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <section id="portfolio" class="portfolio-grid-section">
-      <div class="container">
-        <div class="portfolio-grid-header reveal">
-          <h2 class="section-title">Graphic &amp; Product portfolio</h2>
-          <p id="portfolio-count" style="margin:0;font-size:15px;font-weight:600;color:rgba(0,0,0,.45)">43 selected works</p>
-        </div>
-        <div class="portfolio-grid reveal reveal-delay-1"></div>
-        <div class="portfolio-grid-more reveal reveal-delay-2"></div>
       </div>
     </section>
 
@@ -299,6 +289,15 @@
       </div>
     </section>
 
+    <section id="apps" class="projects">
+      <div class="container">
+        <div class="projects-header reveal">
+          <h2 class="section-title">App portfolio</h2>
+        </div>
+        <div class="carousel-stage reveal reveal-delay-1" aria-live="polite"></div>
+      </div>
+    </section>
+
     <footer id="contact" class="contact">
       <div class="container">
         <div class="contact-intro reveal">
@@ -313,8 +312,6 @@
               <a class="contact-email" href="mailto:feurona@gmail.com">feurona@gmail.com</a>
               <p class="contact-label">Phone</p>
               <a class="contact-email" href="tel:+359894791095">+359 89 479 1095</a>
-              <p class="contact-note">Remote-friendly from Varna. Open to brand, UI/UX, and visual content projects.</p>
-              <a class="behance-link" href="https://www.behance.net/feurona/" target="_blank" rel="noopener noreferrer">Behance ↗</a>
             </div>
             <div class="contact-actions">
               <button type="button" class="icon-btn copy-email-btn" aria-label="Copy email address">
@@ -341,7 +338,7 @@
             <p class="footer-menu-label">Menu</p>
             <div class="footer-links">
               <a class="footer-link" href="#hero"><span><span class="footer-link-num">01</span> <span class="footer-link-text">Home</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
-              <a class="footer-link" href="#websites"><span><span class="footer-link-num">02</span> <span class="footer-link-text">Work</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+              <a class="footer-link" href="#portfolio"><span><span class="footer-link-num">02</span> <span class="footer-link-text">Work</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
               <a class="footer-link" href="#about"><span><span class="footer-link-num">03</span> <span class="footer-link-text">About</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
               <a class="footer-link" href="#career"><span><span class="footer-link-num">04</span> <span class="footer-link-text">Career</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
             </div>
@@ -377,6 +374,6 @@
     </div>
   </div>
 
-  <script src="dist/js/portfolio.js?v=73"></script>
+  <script src="dist/js/portfolio.js?v=76"></script>
 </body>
 </html>

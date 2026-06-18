@@ -258,6 +258,16 @@
       instagramIcon: true,
       desc: "Instagram content produced by me for Zodiatherapy.",
     },
+    {
+      title: "Мамо играе ми се",
+      href: "https://www.instagram.com/mamoigraemise/",
+      external: true,
+      image: "dist/images/projects/mamoigraemise-logo.svg",
+      previewFit: "contain",
+      previewScale: 0.65,
+      instagramIcon: true,
+      desc: "Instagram content produced by me for Мамо играе ми се.",
+    },
   ];
 
   const CAREER_UE_VARNA_INDEX = 1;
@@ -577,13 +587,14 @@
     const sections = [
       { id: "hero", label: "Home" },
       { id: "about", label: "About" },
-      { id: "websites", label: "Work" },
       { id: "portfolio", label: "Work" },
+      { id: "websites", label: "Work" },
       { id: "instagram", label: "Work" },
+      { id: "apps", label: "Work" },
       { id: "contact", label: "Contact" },
     ];
 
-    const navSectionId = (id) => (id === "portfolio" || id === "instagram" ? "websites" : id);
+    const navSectionId = (id) => (id === "websites" || id === "instagram" || id === "apps" ? "portfolio" : id);
 
     const sideNav = $(".side-nav");
     const mobileNav = $(".mobile-nav");

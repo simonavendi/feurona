@@ -1215,6 +1215,7 @@ main { min-height: 100vh; padding-bottom: calc(6.25rem + env(safe-area-inset-bot
 #websites.projects { padding-top: 2rem; }
 @media (min-width: 768px) { #websites.projects { padding-top: 3rem; } }
 #instagram.projects { padding-top: 2rem; }
+#apps.projects { padding-top: 2rem; }
 .portfolio-grid-header {
   display: flex;
   align-items: end;
