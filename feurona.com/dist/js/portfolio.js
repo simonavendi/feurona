@@ -139,12 +139,12 @@
 
   const featuredWebsiteProjects = [
     {
-      title: "Amare",
-      href: "https://amarespa.com/",
+      title: "Plasico",
+      href: "https://plasico.vercel.app/",
       external: true,
-      image: "dist/images/projects/amare-logo.svg",
+      image: "dist/images/projects/plasico-logo.svg",
       previewFit: "contain",
-      desc: "E-commerce website for Amare Spa Therapy — clean product-focused layout, Bulgarian storefront, and brand-led UX for professional beauty cosmetics.",
+      desc: "E-commerce website for Plasico — product-focused storefront, clear category browsing, and a conversion-led shopping experience for tech and electronics.",
     },
     {
       title: "Zodia Therapy",
@@ -154,14 +154,6 @@
       previewFit: "contain",
       previewScale: 0.6,
       desc: "Luxury e-commerce for zodiac-themed gift boxes — personalized product curation, premium brand identity, and a warm, high-conversion storefront.",
-    },
-    {
-      title: "Storyland",
-      href: "https://www.storyland.bg/",
-      external: true,
-      image: "dist/images/projects/storyland-logo.svg",
-      previewFit: "contain",
-      desc: "Personalized children's book platform — fairytale landing experience, name-driven book creation flow, and a warm, family-friendly Bulgarian storefront.",
     },
     {
       title: "Мамо играе ми се",
@@ -179,14 +171,6 @@
       image: "dist/images/projects/uebn-logo.svg",
       previewFit: "contain",
       desc: "UEBN (UE Varna) website — UI/UX support and online presence design for an educational platform.",
-    },
-    {
-      title: "Metrica Labs",
-      href: "https://metrica-labs.vercel.app/",
-      external: true,
-      image: "dist/images/projects/metrica-logo.svg",
-      previewFit: "contain",
-      desc: "Metrica Labs website — product-focused landing experience and brand-led UX for a modern analytics and experimentation platform.",
     },
   ];
 
@@ -270,10 +254,18 @@
     },
   ];
 
-  const CAREER_UE_VARNA_INDEX = 1;
+  const CAREER_UE_VARNA_INDEX = 2;
 
   const careerCompany = {
     roles: [
+      {
+        title: "Marketing Manager — Plasico Bulgaria",
+        period: "Present",
+        link: "https://plasico.bg/",
+        label: "Marketing",
+        summary:
+          "Marketing Manager at Plasico Bulgaria — leading brand, campaigns, and digital growth for a tech and electronics retailer. I shape go-to-market messaging, storefront and content strategy, and performance marketing to drive awareness and conversion across channels.",
+      },
       {
         title: "Graphic Designer — FIL Advertising Agency",
         period: "2026 — Present",
@@ -285,13 +277,13 @@
       {
         id: "ue-varna",
         title: "Graphic Designer — UE Varna",
-        period: "2021 — Present",
+        period: "2021 — 2026",
         link: "https://www.ue-varna.bg/",
         label: "Corporate Experience",
         company: "University of Economics — Varna",
         years: 5,
         startLabel: "2021",
-        endLabel: "Present",
+        endLabel: "2026",
         bars: 5,
         portfolioLink: { slug: "ue-varna", text: "See UEV portfolio" },
         summary:
